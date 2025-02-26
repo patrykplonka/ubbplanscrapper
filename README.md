@@ -1,5 +1,5 @@
 # Projekt
-# Grupa projektowa:
-# Patryk Płonka
-# Patryk Matusiak
-# Mikołaj Pustelnik
+Grupa projektowa:
+Patryk Płonka
+Patryk Matusiak
+Mikołaj Pustelnik
