@@ -1,0 +1,82 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebScrapper/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.73",
+          "Newtonsoft.Json": "13.0.3",
+          "Selenium.WebDriver": "4.29.0",
+          "Selenium.WebDriver.ChromeDriver": "133.0.6943.14100"
+        },
+        "runtime": {
+          "WebScrapper.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.73": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.73.0",
+            "fileVersion": "1.11.73.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.29.0": {
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/133.0.6943.14100": {}
+    }
+  },
+  "libraries": {
+    "WebScrapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.73": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SykMV3QdkulfQOevA5M3fqdTtOx12HRdNL0aaYYEZSYqDvBo2ylgFBngmNDL0XguuGQHpff2iOFNy32M2ZUx7g==",
+      "path": "htmlagilitypack/1.11.73",
+      "hashPath": "htmlagilitypack.1.11.73.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.29.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bxUeeyGPoPFqqZX/RQAmcuE8fvdi08ep9519rFpONfC/rmBemezfCbbwDKPLE0xkb/cW1asH5WbDYLXs5giVeg==",
+      "path": "selenium.webdriver/4.29.0",
+      "hashPath": "selenium.webdriver.4.29.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/133.0.6943.14100": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nXlooaa5xglW1PwkGsVTrR1k/bu6yyMUhX1/vGT8bWWSPLm0XdE7LE8wWPVJ2lh8f9QHpO729iP0fAVY2/zwtA==",
+      "path": "selenium.webdriver.chromedriver/133.0.6943.14100",
+      "hashPath": "selenium.webdriver.chromedriver.133.0.6943.14100.nupkg.sha512"
+    }
+  }
+}
