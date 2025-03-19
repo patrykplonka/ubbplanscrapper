@@ -25,6 +25,13 @@ class Program
         { "pnj", "Praktyczna Nauka Języka" }
     };
 
+    static readonly Dictionary<string, string> studyModeMapping = new Dictionary<string, string>
+    {
+        { "S", "Stacjonarne" },
+        { "NZ", "Niestacjonarne Zaoczne" },
+        { "NW", "Niestacjonarne Wieczorowe" }
+    };
+
     static void Main(string[] args)
     {
         try
@@ -35,7 +42,7 @@ class Program
             options.AddArgument("--disable-gpu");
             options.AddArgument("--no-sandbox");
             driver = new ChromeDriver(options);
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60)); // Zwiększony timeout
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
 
             Console.WriteLine("Nawigacja do strony...");
             driver.Navigate().GoToUrl("https://plany.ubb.edu.pl/left_menu.php?type=2");
@@ -92,12 +99,25 @@ class Program
         return "nieznany";
     }
 
-    static bool EntryExists(string dept, string coord, string subj, string subjType)
+    static string GetStudyMode(string text)
+    {
+        foreach (var mode in studyModeMapping.Keys)
+        {
+            if (Regex.IsMatch(text, $@"\b{mode}\b"))
+            {
+                return studyModeMapping[mode];
+            }
+        }
+        return "nieznany";
+    }
+
+    static bool EntryExists(string dept, string coord, string subj, string subjType, string studyMode)
     {
         return results.Any(entry =>
             entry["Prowadzący"] == coord &&
             entry["Przedmiot"] == subj &&
-            entry["Typ"] == subjType);
+            entry["Typ"] == subjType &&
+            entry["Tryb studiów"] == studyMode);
     }
 
     static void ProcessDepartment(string deptId, string facultyName, string facultyId, string branchParam)
@@ -241,15 +261,19 @@ class Program
                         if (divText.Contains(subjectCode))
                         {
                             string subjectType = GetSubjectType(divText);
-                            if (!EntryExists(deptName, coordinator.Name, subjectName, subjectType))
+                            string studyMode = GetStudyMode(subjectName + " " + divText);
+                            if (studyMode != "nieznany" && !EntryExists(deptName, coordinator.Name, subjectName, subjectType, studyMode))
                             {
-                                results.Add(new Dictionary<string, string>
+                                var entry = new Dictionary<string, string>
                                 {
                                     { "Katedra", deptName },
                                     { "Prowadzący", coordinator.Name },
                                     { "Przedmiot", subjectName },
-                                    { "Typ", subjectType }
-                                });
+                                    { "Typ", subjectType },
+                                    { "Tryb studiów", studyMode }
+                                };
+                                results.Add(entry);
+                                Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinator.Name}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
                             }
                         }
                     }
@@ -262,15 +286,19 @@ class Program
                     string divText = div.GetAttribute("innerHTML") ?? "";
                     string subjectName = divText.Split(new[] { "<br>" }, StringSplitOptions.None)[0].Trim();
                     string subjectType = GetSubjectType(divText);
-                    if (!EntryExists(deptName, coordinator.Name, subjectName, subjectType))
+                    string studyMode = GetStudyMode(subjectName + " " + divText);
+                    if (studyMode != "nieznany" && !EntryExists(deptName, coordinator.Name, subjectName, subjectType, studyMode))
                     {
-                        results.Add(new Dictionary<string, string>
+                        var entry = new Dictionary<string, string>
                         {
                             { "Katedra", deptName },
                             { "Prowadzący", coordinator.Name },
                             { "Przedmiot", subjectName },
-                            { "Typ", subjectType }
-                        });
+                            { "Typ", subjectType },
+                            { "Tryb studiów", studyMode }
+                        };
+                        results.Add(entry);
+                        Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinator.Name}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
                     }
                 }
             }
@@ -307,23 +335,26 @@ class Program
 
     static Dictionary<string, Dictionary<string, Dictionary<string, object>>> TransformToJson(List<Dictionary<string, string>> results)
     {
-        var jsonData = new Dictionary<string, Dictionary<string, Dictionary<string, List<string>>>>();
+        var jsonData = new Dictionary<string, Dictionary<string, Dictionary<string, Dictionary<string, List<string>>>>>();
         foreach (var entry in results)
         {
             string dept = entry["Katedra"];
             string subject = entry["Przedmiot"];
             string subjectType = entry["Typ"];
+            string studyMode = entry["Tryb studiów"];
             string coordinator = entry["Prowadzący"];
 
             if (!jsonData.ContainsKey(dept))
-                jsonData[dept] = new Dictionary<string, Dictionary<string, List<string>>>();
+                jsonData[dept] = new Dictionary<string, Dictionary<string, Dictionary<string, List<string>>>>();
             if (!jsonData[dept].ContainsKey(subject))
-                jsonData[dept][subject] = new Dictionary<string, List<string>>();
-            if (!jsonData[dept][subject].ContainsKey(subjectType))
-                jsonData[dept][subject][subjectType] = new List<string>();
+                jsonData[dept][subject] = new Dictionary<string, Dictionary<string, List<string>>>();
+            if (!jsonData[dept][subject].ContainsKey(studyMode))
+                jsonData[dept][subject][studyMode] = new Dictionary<string, List<string>>();
+            if (!jsonData[dept][subject][studyMode].ContainsKey(subjectType))
+                jsonData[dept][subject][studyMode][subjectType] = new List<string>();
 
-            if (!jsonData[dept][subject][subjectType].Contains(coordinator))
-                jsonData[dept][subject][subjectType].Add(coordinator);
+            if (!jsonData[dept][subject][studyMode][subjectType].Contains(coordinator))
+                jsonData[dept][subject][studyMode][subjectType].Add(coordinator);
         }
 
         var finalJson = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
@@ -332,22 +363,27 @@ class Program
             finalJson[dept] = new Dictionary<string, Dictionary<string, object>>();
             foreach (var subject in jsonData[dept].Keys)
             {
-                if (jsonData[dept][subject].ContainsKey("wykład"))
+                finalJson[dept][subject] = new Dictionary<string, object>();
+                foreach (var studyMode in jsonData[dept][subject].Keys)
                 {
-                    finalJson[dept][subject] = new Dictionary<string, object>
+                    var types = jsonData[dept][subject][studyMode];
+                    if (types.ContainsKey("wykład"))
                     {
-                        { "Typ", "wykład" },
-                        { "Prowadzący", jsonData[dept][subject]["wykład"] }
-                    };
-                }
-                else
-                {
-                    var firstType = jsonData[dept][subject].Keys.First();
-                    finalJson[dept][subject] = new Dictionary<string, object>
+                        finalJson[dept][subject][studyMode] = new Dictionary<string, object>
+                        {
+                            { "Typ", "wykład" },
+                            { "Prowadzący", types["wykład"] }
+                        };
+                    }
+                    else
                     {
-                        { "Typ", firstType },
-                        { "Prowadzący", jsonData[dept][subject][firstType] }
-                    };
+                        var firstType = types.Keys.First();
+                        finalJson[dept][subject][studyMode] = new Dictionary<string, object>
+                        {
+                            { "Typ", firstType },
+                            { "Prowadzący", types[firstType] }
+                        };
+                    }
                 }
             }
         }
