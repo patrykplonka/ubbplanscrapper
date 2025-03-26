@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dKq9ocz5gQI=",
+  "dgSpecHash": "tD/LF7mQYmI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ti1pl\\Documents\\Projekt\\WebScrapper\\WebScrapper.csproj",
+  "projectFilePath": "D:\\Git Training\\Test\\ZombieHunterPTG\\UBB-PLAN-SCRAPPER\\WebScrapper\\WebScrapper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ti1pl\\.nuget\\packages\\htmlagilitypack\\1.11.73\\htmlagilitypack.1.11.73.nupkg.sha512",
-    "C:\\Users\\ti1pl\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\ti1pl\\.nuget\\packages\\selenium.webdriver\\4.29.0\\selenium.webdriver.4.29.0.nupkg.sha512",
-    "C:\\Users\\ti1pl\\.nuget\\packages\\selenium.webdriver.chromedriver\\133.0.6943.14100\\selenium.webdriver.chromedriver.133.0.6943.14100.nupkg.sha512"
+    "C:\\Users\\Komputer\\.nuget\\packages\\htmlagilitypack\\1.11.73\\htmlagilitypack.1.11.73.nupkg.sha512",
+    "C:\\Users\\Komputer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Komputer\\.nuget\\packages\\selenium.webdriver\\4.29.0\\selenium.webdriver.4.29.0.nupkg.sha512",
+    "C:\\Users\\Komputer\\.nuget\\packages\\selenium.webdriver.chromedriver\\133.0.6943.14100\\selenium.webdriver.chromedriver.133.0.6943.14100.nupkg.sha512"
   ],
   "logs": []
 }

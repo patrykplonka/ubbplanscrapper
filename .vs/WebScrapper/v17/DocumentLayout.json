@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ti1pl\\Documents\\Projekt\\",
+  "WorkspaceRootPath": "C:\\Users\\patry\\Documents\\GitHub\\Projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC3A70CA-4B16-4052-8C22-C1A84DCA2FEC}|WebScrapper\\WebScrapper.csproj|c:\\users\\ti1pl\\documents\\projekt\\webscrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC3A70CA-4B16-4052-8C22-C1A84DCA2FEC}|WebScrapper\\WebScrapper.csproj|c:\\users\\patry\\documents\\github\\projekt\\webscrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC3A70CA-4B16-4052-8C22-C1A84DCA2FEC}|WebScrapper\\WebScrapper.csproj|solutionrelative:webscrapper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ti1pl\\Documents\\Projekt\\WebScrapper\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\patry\\Documents\\GitHub\\Projekt\\WebScrapper\\Program.cs",
               "RelativeDocumentMoniker": "WebScrapper\\Program.cs",
-              "ToolTip": "C:\\Users\\ti1pl\\Documents\\Projekt\\WebScrapper\\Program.cs",
+              "ToolTip": "C:\\Users\\patry\\Documents\\GitHub\\Projekt\\WebScrapper\\Program.cs",
               "RelativeToolTip": "WebScrapper\\Program.cs",
-              "ViewState": "AgIAAGMBAAAAAAAAAAAAwIcBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHoAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:43:10.131Z",
+              "WhenOpened": "2025-03-26T09:26:34.935Z",
               "EditorCaption": ""
             }
           ]
