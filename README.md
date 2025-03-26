@@ -1,31 +1,40 @@
-Grupa projektowa: Patryk Płonka Patryk Matusiak Mikołaj Pustelnik.
+# UBB Plan Scrapper
 
-Wymagania
+Grupa projektowa:  
+**Patryk Płonka**, **Patryk Matusiak**, **Mikołaj Pustelnik**
+
+## Wymagania
 
 Przed uruchomieniem projektu upewnij się, że masz zainstalowane:
 
-Node.js (zalecana wersja LTS)
+- [Node.js](https://nodejs.org/) (zalecana wersja LTS)
+- [npm](https://www.npmjs.com/)
 
-npm
+## Instalacja
 
-Instalacja
+1. **Sklonuj repozytorium:**
 
-Sklonuj repozytorium:
-
+```bash
 git clone https://github.com/patrykplonka/UBB-PLAN-SCRAPPER
+```
 
-Przejdź do folderu frontend:
+2. **Przejdź do folderu frontend:**
 
+```bash
 cd frontend
+```
 
-Zainstaluj zależności:
+3. **Zainstaluj zależności:**
 
+```bash
 npm install
+```
 
-Uruchomienie aplikacji
+4. **Aby uruchomić aplikację, użyj polecenia:**
 
-Aby uruchomić aplikację w trybie deweloperskim, użyj polecenia:
-
+```bash
 npm start
+```
+Aplikacja powinna uruchomić się na http://localhost:3000/
 
-Aplikacja powinna uruchomić się na http://localhost:3000/.
+
