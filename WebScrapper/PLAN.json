@@ -1,0 +1,5558 @@
+{
+  "Katedra 6196": {
+    "Język obcy (drugi) II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Broda Urszula",
+          "Galas-Jędruch Sabina"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Broda Urszula"
+        ]
+      }
+    },
+    "Język obcy II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Broda Urszula",
+          "Galas-Jędruch Sabina"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Bury Beata",
+          "Byrska-Cebrat Aleksandra",
+          "Ciudziński Jerzy",
+          "Galas-Jędruch Sabina",
+          "Markowska-Kwiatkowska Stanisława",
+          "Morawska-Gacek Marzena",
+          "Pietras-Sadłek Marzena",
+          "Szewczyk Ilona"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Ciudziński Jerzy",
+          "Górny Ewa"
+        ]
+      }
+    },
+    "Lektorat języka obcego (jęz. niemiecki / włoski)": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Broda Urszula",
+          "Bury Beata",
+          "Galas-Jędruch Sabina",
+          "Markowska-Kwiatkowska Stanisława",
+          "Pietras-Sadłek Marzena",
+          "Szwabowicz-Janosz Agnieszka"
+        ]
+      }
+    },
+    "Język angielski, 3h przez 10 tyg.": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Bury Beata",
+          "Ciudziński Jerzy",
+          "Kowalska Magdalena"
+        ]
+      }
+    },
+    "Język angielski I": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Bury Beata",
+          "Góralczyk-Rajewska Beata"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata"
+        ]
+      }
+    },
+    "Język angielski II": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Bury Beata",
+          "Góralczyk-Rajewska Beata",
+          "Misik Jolanta",
+          "Morawska-Gacek Marzena",
+          "Świtka Barbara",
+          "Szewczyk Ilona"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata",
+          "Misik Jolanta",
+          "Morawska-Gacek Marzena",
+          "Szewczyk Ilona"
+        ]
+      }
+    },
+    "Język obcy": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Bury Beata",
+          "Byrska-Cebrat Aleksandra",
+          "Ciudziński Jerzy",
+          "Góralczyk-Rajewska Beata",
+          "Górny Ewa",
+          "Gradowska Agnieszka",
+          "Misik Jolanta",
+          "Morawska-Gacek Marzena",
+          "Pietras-Sadłek Marzena",
+          "Szewczyk Ilona",
+          "Szwabowicz-Janosz Agnieszka"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Ciudziński Jerzy",
+          "Górny Ewa"
+        ]
+      }
+    },
+    "Język obcy 1": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Byrska-Cebrat Aleksandra",
+          "Gradowska Agnieszka"
+        ]
+      }
+    },
+    "Język obcy 3": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Byrska-Cebrat Aleksandra",
+          "Ciudziński Jerzy"
+        ]
+      }
+    },
+    "Język obcy IV": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Ciudziński Jerzy",
+          "Galas-Jędruch Sabina",
+          "Morawska-Gacek Marzena",
+          "Szewczyk Ilona"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Ciudziński Jerzy",
+          "Górny Ewa"
+        ]
+      }
+    },
+    "Język łaciński z elem. kultury antycznej": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Gawlik Agnieszka"
+        ]
+      }
+    },
+    "Język angielski / Język angielski III": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata",
+          "Gradowska Agnieszka",
+          "Koczur Agnieszka",
+          "Misik Jolanta"
+        ]
+      }
+    },
+    "Język angielski IV": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata",
+          "Misik Jolanta",
+          "Morawska-Gacek Marzena",
+          "Świtka Barbara",
+          "Szewczyk Ilona",
+          "Szwabowicz-Janosz Agnieszka"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata",
+          "Koczur Agnieszka",
+          "Kowalska Magdalena",
+          "Szewczyk Ilona",
+          "Szwabowicz-Janosz Agnieszka"
+        ]
+      }
+    },
+    "Język obcy / Język obcy 3": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Góralczyk-Rajewska Beata",
+          "Pietras-Sadłek Marzena"
+        ]
+      }
+    },
+    "Język angielski / Język angielski ekonomiczny": {
+      "Stacjonarne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Gradowska Agnieszka",
+          "Koczur Agnieszka",
+          "Szewczyk Ilona"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "lektorat",
+        "Prowadzący": [
+          "Szewczyk Ilona"
+        ]
+      }
+    },
+    "Business communication / Translation in business (w jęz. ang.)": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Świtka Barbara"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Szewczyk Ilona"
+        ]
+      }
+    }
+  },
+  "Katedra 6197": {
+    "Wychowanie Fizyczne": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Cyran Janusz",
+          "Kędzior Jolanta",
+          "Targosz Piotr"
+        ]
+      }
+    },
+    "Wychowanie fizyczne II": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Gradowski Paweł"
+        ]
+      }
+    }
+  },
+  "Katedra 6180": {
+    "Analiza matematyczna II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kotrys Dawid",
+          "Micherda Bartosz"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Micherda Bartosz"
+        ]
+      }
+    },
+    "Matematyka II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamek Mirosław",
+          "Kotrys Dawid"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kotrys Dawid",
+          "Zgraja Tomasz"
+        ]
+      }
+    },
+    "Matematyka inżynierska II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamek Mirosław"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zgraja Tomasz"
+        ]
+      }
+    },
+    "Metody probabilistyczne i statystyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamek Mirosław"
+        ]
+      }
+    },
+    "Statystyka i probabilistyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamek Mirosław",
+          "Micherda Bartosz"
+        ]
+      }
+    },
+    "Statystyka opisowa": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamek Mirosław"
+        ]
+      }
+    },
+    "Matematyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Micherda Bartosz",
+          "Zgraja Tomasz"
+        ]
+      }
+    },
+    "Algorytmy i struktury danych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Jacek"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Jacek"
+        ]
+      }
+    },
+    "Teoria informacji i kodowanie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Jacek"
+        ]
+      }
+    },
+    "Metody probablistyczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wąsowicz Szymon"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Śliwińska Dorota"
+        ]
+      }
+    },
+    "Discrete Mathematics": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zgraja Tomasz"
+        ]
+      }
+    },
+    "Zaawansowana matematyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zgraja Tomasz"
+        ]
+      }
+    }
+  },
+  "Katedra 6174": {
+    "Programowanie IV": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Augustynek Krzysztof"
+        ]
+      }
+    },
+    "Programowanie dla Internetu w technologii ASP.NET": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Augustynek Krzysztof"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Augustynek Krzysztof"
+        ]
+      }
+    },
+    "Podstawy konstrukcji maszyn": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Augustynek Krzysztof"
+        ]
+      }
+    },
+    "Systemy rozproszone": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Augustynek Krzysztof"
+        ]
+      }
+    },
+    "Monitoring w przemyśle": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bebek Ewa"
+        ]
+      }
+    },
+    "Programowalne sterowniki PAC": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bebek Ewa"
+        ]
+      }
+    },
+    "Sterowanie sekwencyjne": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Bebek Ewa"
+        ]
+      }
+    },
+    "Systemy wizualizacji SCADA": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bebek Ewa",
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Układy przełączające": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bebek Ewa"
+        ]
+      }
+    },
+    "Inżynierskie metody optymalizacji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Danielczyk Piotr"
+        ]
+      }
+    },
+    "Modelowanie wspomagające projektowanie maszyn": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Danielczyk Piotr"
+        ]
+      }
+    },
+    "Podstawy CAD i modelowanie 3D": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Danielczyk Piotr"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Marszałek Jerzy"
+        ]
+      }
+    },
+    "Projektowanie generatywne": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Danielczyk Piotr"
+        ]
+      }
+    },
+    "Wybrane zagadnienia z konstrukcji maszyn": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drewniak Józef"
+        ]
+      }
+    },
+    "Języki wysokiego poziomu w mechatronice": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Jabłoński Adam",
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Mechatronika": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Jabłoński Adam"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Jabłoński Adam"
+        ]
+      }
+    },
+    "Podstawy robotyki II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      }
+    },
+    "Drgania mechaniczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Janusz Jarosław"
+        ]
+      }
+    },
+    "Podstawy automatyki i robotyki": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Janusz Jarosław"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Janusz Jarosław"
+        ]
+      }
+    },
+    "Podstawy teorii sygnałów i systemów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Janusz Jarosław"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Janusz Jarosław"
+        ]
+      }
+    },
+    "Metaloznawstwo II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Rajzer Izabella"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jędrzejczyk Dariusz"
+        ]
+      }
+    },
+    "Nauka o materiałach I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jędrzejczyk Dariusz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Rajzer Izabella"
+        ]
+      }
+    },
+    "Przemysł 4.0": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jędrzejczyk Dariusz"
+        ]
+      }
+    },
+    "Współczesne materiały inżynierskie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jędrzejczyk Dariusz"
+        ]
+      }
+    },
+    "Mechanika płynów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      }
+    },
+    "Podstawy konstrukcji maszyn II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Praszkiewicz Marek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Praszkiewicz Marek"
+        ]
+      }
+    },
+    "Mechanika płynów I": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      }
+    },
+    "Sieci neuronowe w automatyce": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      }
+    },
+    "Urządzenia pneumatyczne i hydrauliczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      }
+    },
+    "Wytrzymałość materiałów I": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kopeć Jerzy"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pawlus Dorota"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Kłosiński Jacek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Kłosiński Jacek"
+        ]
+      }
+    },
+    "Seminarium dyplomowe II": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Kłosiński Jacek"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Wróbel Ireneusz"
+        ]
+      }
+    },
+    "Sterowanie procesami ciągłymi": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłosiński Jacek"
+        ]
+      }
+    },
+    "Wybrane zagadnienia teorii sterowania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłosiński Jacek"
+        ]
+      }
+    },
+    "Algorytmy optymalizacji": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Marszałek Jerzy"
+        ]
+      }
+    },
+    "Badania operacyjne i optymalizacja": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Marszałek Jerzy"
+        ]
+      }
+    },
+    "Podstawy sterowania optymalnego": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Marszałek Jerzy"
+        ]
+      }
+    },
+    "Wspomaganie decyzji w praktyce inżynierskiej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Marszałek Jerzy"
+        ]
+      }
+    },
+    "Komputerowe wspomaganie syntezy układów automatyki": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Pawlik Marcin"
+        ]
+      }
+    },
+    "Robotyzacja stanowisk mechatronicznych": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Pawlik Marcin",
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Systemy czasu rzeczywistego": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Pawlik Marcin",
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Symulacja procesów zrobotyzowanych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Pawlik Marcin",
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Wytrzymałość kompozytów i teoria sprężystości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pawlus Dorota"
+        ]
+      }
+    },
+    "Grafika inżynierska II (Rysunek techniczny)": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Rysiński Jacek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Rysiński Jacek"
+        ]
+      }
+    },
+    "Podstawy konstrukcji maszyn I": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Praszkiewicz Marek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Praszkiewicz Marek"
+        ]
+      }
+    },
+    "Materiały i tworzywa sztuczne w budowie pojazdów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Rajzer Izabella"
+        ]
+      }
+    },
+    "Praca przejściowa": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Rysiński Jacek",
+          "Sidzina Marcin"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróbel Ireneusz"
+        ]
+      }
+    },
+    "Projektowanie elementów automatyki": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Sidzina Marcin"
+        ]
+      }
+    },
+    "Materiałoznawstwo": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Skotnicki Wojciech"
+        ]
+      }
+    },
+    "Podstawy systemów operacyjnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Skotnicki Wojciech"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Skotnicki Wojciech"
+        ]
+      }
+    },
+    "Wytrzymałość materiałów II": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Śliwka Mateusz"
+        ]
+      }
+    },
+    "Wytrzymałość materiałów III": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Śliwka Mateusz"
+        ]
+      }
+    },
+    "Elementy sterowania i robotyki": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Trąbka Arkadiusz"
+        ]
+      }
+    },
+    "Identyfikacja procesów automatyki": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Trąbka Arkadiusz"
+        ]
+      }
+    },
+    "Języki programowania robotów": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Trąbka Arkadiusz"
+        ]
+      }
+    },
+    "Napędy i programowanie robotów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Trąbka Arkadiusz"
+        ]
+      }
+    },
+    "Teoria maszyn i mechanizmów": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Trąbka Arkadiusz"
+        ]
+      }
+    },
+    "Dynamika maszyn": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Urbaś Andrzej"
+        ]
+      }
+    },
+    "Dynamika robotów": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Urbaś Andrzej"
+        ]
+      }
+    },
+    "Mechanika budowli 2": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Urbaś Andrzej"
+        ]
+      }
+    },
+    "Modelowanie komputerowe układów mechatronicznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Urbaś Andrzej"
+        ]
+      }
+    },
+    "Zastosowanie technik komputerowych w mechanice": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Urbaś Andrzej"
+        ]
+      }
+    },
+    "Konsultacje (L)": {
+      "Stacjonarne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Wróbel Ireneusz"
+        ]
+      }
+    },
+    "Laboratorium komputerowego wspomagania konstruowania": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wróbel Ireneusz"
+        ]
+      }
+    },
+    "Podstawy CAD": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróbel Ireneusz"
+        ]
+      }
+    }
+  },
+  "Katedra 6175": {
+    "Badania i diagnostyka pojazdów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wnęk Henryk"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wnęk Henryk"
+        ]
+      }
+    },
+    "Badania i diagnostyka silników": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pietras Dariusz"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Knefel Tomasz",
+          "Pietras Dariusz"
+        ]
+      }
+    },
+    "Budowa i eksploatacja pojazdów I": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Parczewski Krzysztof"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Parczewski Krzysztof"
+        ]
+      }
+    },
+    "Eksploatacja i technologia napraw maszyn, 10,5 godz.": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Cieślar Kacper"
+        ]
+      }
+    },
+    "Eksploatacja i technologia napraw maszyn": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz",
+          "Parczewski Krzysztof"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz",
+          "Parczewski Krzysztof"
+        ]
+      }
+    },
+    "Mechanika analityczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      }
+    },
+    "Mechanika techniczna II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      }
+    },
+    "Podstawy dynamiki maszyn": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      }
+    },
+    "Podstawy mechaniki II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kubas Krzysztof"
+        ]
+      }
+    },
+    "Teoria sprężystości i plastyczności": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Harlecki Andrzej"
+        ]
+      }
+    },
+    "Eksploatacja i technologia napraw maszyn, 4,5 godz.": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz",
+          "Parczewski Krzysztof"
+        ]
+      }
+    },
+    "Ochrona własności intelektualnych": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz"
+        ]
+      }
+    },
+    "Technologie proekologiczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz"
+        ]
+      }
+    },
+    "Wybrane zagadnienia z ochrony własności intelektualnych, zdalnie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz"
+        ]
+      }
+    },
+    "Zasilanie i osprzęt silników": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Knefel Tomasz"
+        ]
+      }
+    },
+    "Metody numeryczne": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kubas Krzysztof"
+        ]
+      }
+    },
+    "Podstawy programowania": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kubas Krzysztof"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubas Krzysztof"
+        ]
+      }
+    },
+    "Budowa i eksploatacja silników I": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowakowski Jacek"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Nowakowski Jacek"
+        ]
+      }
+    },
+    "Systemy pomiarowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowakowski Jacek",
+          "Parczewski Krzysztof"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wnęk Henryk"
+        ]
+      }
+    },
+    "Procesy montażu w przemyśle motoryzacyjnym": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Parczewski Krzysztof"
+        ]
+      }
+    },
+    "Podstawy rekonstrukcji wypadków drogowych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Parczewski Krzysztof"
+        ]
+      }
+    },
+    "Ekologia i recykling pojazdów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pietras Dariusz"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pietras Dariusz"
+        ]
+      }
+    },
+    "Zarządzanie środowiskiem i ekologia": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pietras Dariusz"
+        ]
+      }
+    },
+    "Podstawy architektury komputerów": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Sikora Krzysztof"
+        ]
+      }
+    },
+    "Termodynamika I": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sucheta Andrzej"
+        ]
+      }
+    },
+    "Termodynamika i termokinetyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sucheta Andrzej"
+        ]
+      }
+    },
+    "Transport masy i energii": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sucheta Andrzej"
+        ]
+      }
+    },
+    "Termodynamika techniczna I": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sucheta Andrzej"
+        ]
+      }
+    },
+    "Wymagania homologacyjne w budowie pojazdów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wnęk Henryk"
+        ]
+      }
+    }
+  },
+  "Katedra 6176": {
+    "Komputerowe projektowanie zrobotyzowanych stanowisk pracy": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Komputerowe projektowanie zrobotyzowanych stanowisk pracy I": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Programowanie robotów": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Rozpoznawanie obrazów i systemy ekspertowe": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Roboty w wytwarzaniu maszyn": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Systemy wizyjne w wytwarzaniu": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Błaszczak Paweł"
+        ]
+      }
+    },
+    "Metrologia": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Hura Izabela"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Hura Izabela"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Hura Izabela"
+        ]
+      }
+    },
+    "Obróbka ubytkowa": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Podstawy metrologii (Metrol. wielk. geom. / Metrol. tech. / Metrol.elek.)": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Hura Izabela"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Hura Izabela"
+        ]
+      }
+    },
+    "Odlewnictwo": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Odlewnictwo i obróbka plastyczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Techniki wytwarzania I": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Bezpieczeństwo i jakość w procesach wytwórczych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Obróbka plastyczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Praca przejściowa": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Technologie spajania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pezda Jacek"
+        ]
+      }
+    },
+    "Projektowanie elastycznych systemów produkcyjnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Stryczek Roman"
+        ]
+      }
+    },
+    "Projektowanie procesów obróbki i montażu": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Stryczek Roman"
+        ]
+      }
+    },
+    "Obrabiarki sterowane numerycznie": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wyrobek Kamil"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wyrobek Kamil"
+        ]
+      }
+    },
+    "Projektowanie generatywne": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wyrobek Kamil"
+        ]
+      }
+    },
+    "Programowanie obrabiarek sterowanych numerycznie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wyrobek Kamil"
+        ]
+      }
+    },
+    "Systemy CAM": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wyrobek Kamil"
+        ]
+      }
+    },
+    "Niekonwencjonalne metody wytwarzania": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zyzak Piotr"
+        ]
+      }
+    },
+    "Projektowanie procesów obróbki": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Zyzak Piotr"
+        ]
+      }
+    },
+    "Zarządzanie przedsiębiorstwem": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zyzak Piotr"
+        ]
+      }
+    },
+    "Zintegrowane systemy wytwarzania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zyzak Piotr"
+        ]
+      }
+    }
+  },
+  "Katedra 6181": {
+    "Kreatywność pracowników i twórcze zespoły": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Baron-Puda Maria",
+          "Radwan Katarzyna"
+        ]
+      }
+    },
+    "Ocena kompetencji pracowniczych - procesy produkcyjne, zdalnie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Baron-Puda Maria"
+        ]
+      }
+    },
+    "Zarządzanie systemami pracy": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Baron-Puda Maria"
+        ]
+      }
+    },
+    "BHP i ergonomia": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drobina Robert"
+        ]
+      }
+    },
+    "Ergonomia, bezpieczeństwo i higiena pracy": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drobina Robert"
+        ]
+      }
+    },
+    "Zarządzanie bezpieczeństwem pracy, zdalnie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drobina Robert"
+        ]
+      }
+    },
+    "Zarządzanie środowiskowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Drobina Robert"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drobina Robert"
+        ]
+      }
+    },
+    "Praca przejściowa": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Zarządzanie jakością i bezpieczeństwem I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Golińska Ewa"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Golińska Ewa"
+        ]
+      }
+    },
+    "Zarządzanie jakością i bezpieczeństwem III": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Golińska Ewa"
+        ]
+      }
+    },
+    "Grafika inżynierska (komputerowa) II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Herma Sławomir"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kukla Sławomir"
+        ]
+      }
+    },
+    "Informatyka i komputerowe wspomaganie prac inżynierskich I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Herma Sławomir"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Herma Sławomir"
+        ]
+      }
+    },
+    "Systemy wspomagania decyzji i zarządzania wiedzą": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Herma Sławomir"
+        ]
+      }
+    },
+    "Zajęcia z AutoCad-a dla uczniów liceum S. Herma 6.03-12.06": {
+      "Stacjonarne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Herma Sławomir"
+        ]
+      }
+    },
+    "Finanse i rachunkowość I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      }
+    },
+    "Podstawy rachunkowości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      }
+    },
+    "Zarządzanie produkcją i usługami II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Plinta Dariusz"
+        ]
+      }
+    },
+    "Gospodarka magazynowa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      }
+    },
+    "Metody i techniki twórczego myślenia": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kolny Damian"
+        ]
+      }
+    },
+    "Projektowanie zakładów przemysłowych": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kolny Damian"
+        ]
+      }
+    },
+    "Informatyka i komputerowe wspomaganie prac inżynierskich III": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kukla Sławomir"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kukla Sławomir"
+        ]
+      }
+    },
+    "Procesy produkcyjne - projektowanie procesów produkcji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Komunikacja społeczna i aktywizacja zawodowa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kutschenreiter-Praszkiewicz Izabela"
+        ]
+      }
+    },
+    "Marketing": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kutschenreiter-Praszkiewicz Izabela"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kutschenreiter-Praszkiewicz Izabela"
+        ]
+      }
+    },
+    "Zarządzanie strategiczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kutschenreiter-Praszkiewicz Izabela"
+        ]
+      }
+    },
+    "Rachunek kosztów dla inżynierów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Matuszek Józef"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      }
+    },
+    "Management of Technology and Innovation": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Projektowanie systemów produkcyjnych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Tendencje rozwoju systemów produkcji II - procesy wytwarzania": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Zarządzanie projektami innowacyjnymi I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Moczała Aleksander"
+        ]
+      }
+    },
+    "Prognozowanie i symulacja w przedsiębiorstwie I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Plinta Dariusz"
+        ]
+      }
+    },
+    "Projektowanie zakładów przemysłowych, zdalnie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Plinta Dariusz"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Plinta Dariusz"
+        ]
+      }
+    },
+    "Organizacja systemów produkcyjnych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Radwan Katarzyna"
+        ]
+      }
+    },
+    "Zarządzanie projektem i innowacjami": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Radwan Katarzyna"
+        ]
+      }
+    },
+    "Komputerowe wspomaganie projektowania systemów produkcyjnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      }
+    },
+    "Podstawy projektowania inżynierskiego I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      }
+    },
+    "Zarządzanie procesami w przedsiębiorstwie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dariusz"
+        ]
+      }
+    },
+    "Zarządzanie przedsiębiorstwem produkcyjnym": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcek Dorota"
+        ]
+      }
+    }
+  },
+  "Katedra 30847": {
+    "Inteligentne przetwarzanie multimediów": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Bernaś Marcin"
+        ]
+      }
+    },
+    "Inteligentny transport i pojazdy autonomiczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Bernaś Marcin"
+        ]
+      }
+    },
+    "Interfejs w aplikacjach internetowych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bernaś Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bernaś Marcin"
+        ]
+      }
+    },
+    "Podstawy tworzenia gier": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bernaś Marcin"
+        ]
+      }
+    },
+    "Nierelacyjne bazy danych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fałat Paweł"
+        ]
+      }
+    },
+    "Programowanie II": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fałat Paweł"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Shevchuk Ruslan"
+        ]
+      }
+    },
+    "Programowanie IV": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Fałat Paweł",
+          "Zając Tomasz"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wieczorek Wojciech"
+        ]
+      }
+    },
+    "Programowanie dla Internetu w technologii ASP.NET": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fałat Paweł"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Tengler Szymon"
+        ]
+      }
+    },
+    "Bezpieczeństwo systemów serwerowych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Gancarczyk Tomasz"
+        ]
+      }
+    },
+    "Systemy operacyjne I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gancarczyk Tomasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gancarczyk Tomasz"
+        ]
+      }
+    },
+    "Metody sztucznej inteligencji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kordos Mirosław"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kordos Mirosław"
+        ]
+      }
+    },
+    "Projektowanie rozwiązań internetowych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Giertuga Patryk",
+          "Grygiel Mikołaj"
+        ]
+      }
+    },
+    "Projekt - zespołowe przedsięwzięcie programistyczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Grygiel Maksymilian",
+          "Zając Tomasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Grygiel Maksymilian",
+          "Hamera Łukasz",
+          "Zając Tomasz"
+        ]
+      }
+    },
+    "Techniki testowania aplikacji": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Grygiel Maksymilian"
+        ]
+      }
+    },
+    "Grafika komputerowa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Martsenyuk Vasyl"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Grygiel Mikołaj",
+          "Martsenyuk Vasyl"
+        ]
+      }
+    },
+    "Podstawy elektrotechniki i elektroniki": {
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Jancarczyk Daniel"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Masny Andrzej"
+        ]
+      }
+    },
+    "Programowanie mikrokontrolerów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jancarczyk Daniel"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Pytka Damian"
+        ]
+      }
+    },
+    "Podstawy napędu elektrycznego": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Patyk Aleksander"
+        ]
+      }
+    },
+    "Sterowanie elektrycznymi układami napędowymi": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Jancarczyk Daniel"
+        ]
+      }
+    },
+    "Technika cyfrowa i mikroprocesorowa": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kajstura Krzysztof"
+        ]
+      }
+    },
+    "Advanced Programming Techniques, tyg. 7,5-15": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kordos Mirosław"
+        ]
+      }
+    },
+    "Elektrotechnika i elektronika": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłos-Witkowska Aleksandra"
+        ]
+      }
+    },
+    "Fizyka": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłos-Witkowska Aleksandra"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłos-Witkowska Aleksandra"
+        ]
+      }
+    },
+    "Podstawy informatyki": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kłos-Witkowska Aleksandra"
+        ]
+      }
+    },
+    "Cyfrowe przetwarzanie sygnałów I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Martsenyuk Vasyl"
+        ]
+      }
+    },
+    "Matematyka konkretna": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Martsenyuk Vasyl"
+        ]
+      }
+    },
+    "Nauka o danych II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Martsenyuk Vasyl"
+        ]
+      }
+    },
+    "Uczenie maszynowe": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Martsenyuk Vasyl"
+        ]
+      }
+    },
+    "<img id=\"arrow_course_0\" src=\"images/resize.png\" style=\"position: absolute; top: 57px; left: 95px; display: block; border: 1px solid rgb(102, 102, 102);\">NodI, lab": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Nikodem Joanna"
+        ]
+      }
+    },
+    "<img id=\"arrow_course_1\" src=\"images/resize.png\" style=\"position: absolute; top: 57px; left: 95px; display: block; border: 1px solid rgb(102, 102, 102);\">NodI, wyk": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nikodem Joanna"
+        ]
+      }
+    },
+    "<img id=\"arrow_course_2\" src=\"images/resize.png\" style=\"position: absolute; top: 57px; left: 95px; display: block; border: 1px solid rgb(102, 102, 102);\">NodI, lab": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Nikodem Joanna"
+        ]
+      }
+    },
+    "Przekształtniki energoelektroniczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Patyk Aleksander"
+        ]
+      }
+    },
+    "Elektronika": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Pytka Damian"
+        ]
+      }
+    },
+    "Bezpieczeństwo sieci Web": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Shevchuk Ruslan"
+        ]
+      }
+    },
+    "Technologie Blockchain": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Shevchuk Ruslan"
+        ]
+      }
+    },
+    "Teletransmisja II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Shevchuk Ruslan"
+        ]
+      }
+    },
+    "Bezpieczeństwo technologii mobilnych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Veselska Olga"
+        ]
+      }
+    },
+    "Projektowanie i obsługa sieci komputerowych II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Veselska Olga"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Veselska Olga"
+        ]
+      }
+    },
+    "Radiokomunikacja II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Veselska Olga"
+        ]
+      }
+    },
+    "Sieci komputerowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ziubina Ruslana"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ziubina Ruslana"
+        ]
+      }
+    },
+    "Matematyka dyskretna II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wieczorek Wojciech"
+        ]
+      }
+    },
+    "Rozszerzony Internet rzeczy": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Więcław Łukasz"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Więcław Łukasz",
+          "Zawiślak Stanisław"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Więcław Łukasz",
+          "Zawiślak Stanisław"
+        ]
+      }
+    },
+    "Wprowadzenie do UX Design": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcław Łukasz"
+        ]
+      }
+    },
+    "Wzorce projektowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcław Łukasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Więcław Łukasz"
+        ]
+      }
+    },
+    "Matematyka dyskretna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zawiślak Stanisław"
+        ]
+      }
+    },
+    "Seminarium dyplomowe II": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Zawiślak Stanisław"
+        ]
+      }
+    },
+    "Linie i systemy światłowodowe I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ziubina Ruslana"
+        ]
+      }
+    }
+  },
+  "Katedra 6193": {
+    "Komunikacja AAC/ Wspomagające i alternatywne metody komunikacji": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Borzęcka Anna"
+        ]
+      }
+    },
+    "Metodyka zajęć korekcyjno-kompensacyjnych dla dzieci z niepełnosprawością intelektualną/ Praca korekcyjno-kompensacyjna z dziećmi z niepełnosprawością intelektualną": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Borzęcka Anna"
+        ]
+      }
+    },
+    "Metodyka zajęć korekcyjno-kompensacyjnych dla dzieci z&nbsp;niepełnosprawnością sprzężoną/Praca korekcyjno-kompensacyjna z dzieckiem z niepełnosprawnością sprzężoną": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Borzęcka Anna"
+        ]
+      }
+    },
+    "Wspieranie rozwoju dziecka z niepełnosprawnością intelektualną/Praca z dzieckiem z niepelnosprawnością intelektualną": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Borzęcka Anna"
+        ]
+      }
+    },
+    "Psychologia osobowości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmiel Andrzej"
+        ]
+      }
+    },
+    "Psychologia rozwojowa": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmiel Andrzej"
+        ]
+      }
+    },
+    "Psychologia rozwojowa i osobowości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmiel Andrzej"
+        ]
+      }
+    },
+    "Psychologia uczenia się i nauczania/Psychologia kształcenia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmiel Andrzej"
+        ]
+      }
+    },
+    "Psychologia wychowawcza i społeczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmiel Andrzej"
+        ]
+      }
+    },
+    "Metodyka pracy i współpracy z rodziną oraz prawnymi opiekunami dziecka/ Współpraca pedagoga ze środowiskiem": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Galocz Adriana"
+        ]
+      }
+    },
+    "Metodyka pracy pedagoga szkolnego": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Metodyka zajęć pozalekcyjnych i pozaszkolnych": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Galocz Adriana"
+        ]
+      }
+    },
+    "Pedagogika dziecka ze specjalnymi potrzebami edukacyjnymi/Praca z dzieckiem ze specjalnymi potrzebami edukacyjnymi": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Galocz Adriana"
+        ]
+      }
+    },
+    "Diagnoza trudności w uczeniu się i zaburzeń zachowania u dzieci/Diagnoza niepowodzeń szkolnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Metodyka zajęć korekcyjno-kompensacyjnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kantyka-Dziwisz Karolina"
+        ]
+      }
+    },
+    "Metodyka pedagogiki przedszkolnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Twaróg-Kanus Agnieszka"
+        ]
+      }
+    },
+    "Wybrane modele i koncepcje pedagogiki wczesnoszkolnej/Tendencje i kierunki zmian we współczesnej pedagogice wczesnoszkolnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kantyka-Dziwisz Karolina"
+        ]
+      }
+    },
+    "Dydaktyka ogólna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kochanowska Ewa",
+          "Michalkiewicz-Gorol Agnieszka"
+        ]
+      }
+    },
+    "Metodologia badań pedagogicznych/Praca badawcza nauczyciela": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kochanowska Ewa"
+        ]
+      }
+    },
+    "Seminarium dyplomowe": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Kochanowska Ewa",
+          "Kujan Patryk",
+          "Michalkiewicz-Gorol Agnieszka",
+          "Modrzejewska Justyna",
+          "Nowak Zbigniew",
+          "Wojciechowska Justyna"
+        ]
+      }
+    },
+    "Metodyka pedagogiki wczesnoszkolnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kojs Rafał"
+        ]
+      }
+    },
+    "Przeniesienie zajec w dniu 26.03 z sali L232": {
+      "Stacjonarne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Kojs Rafał"
+        ]
+      }
+    },
+    "Przeniesienie zajeć w dniu 26.03": {
+      "Stacjonarne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Kojs Rafał"
+        ]
+      }
+    },
+    "Metodyka pracy resocjalizacyjnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kujan Patryk"
+        ]
+      }
+    },
+    "Profilaktyka społeczna i interwencja kryzysowa": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kujan Patryk"
+        ]
+      }
+    },
+    "Patologie społeczne/zaburzenia zachowań społecznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kujan Patryk"
+        ]
+      }
+    },
+    "Praca z dzieckiem z deficytami rozwojowymi": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Lizurej-Hanula Alicja"
+        ]
+      }
+    },
+    "Wprowadzenie do diagnozy psychopedagogicznej/Elementy psychopedagogicznego postępowania diagnostycznego": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Lizurej-Hanula Alicja"
+        ]
+      }
+    },
+    "Pojęcia i systemy pedagogiczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Michalkiewicz-Gorol Agnieszka",
+          "Miczka-Pajestka Monika"
+        ]
+      }
+    },
+    "Terapia pedagogiczna/Oddziaływania terapeutyczne wobec dziecka w wieku przedszkolnym i wczesnoszkolnym": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Lorenc Joanna"
+        ]
+      }
+    },
+    "Pedeutologia/Problemy kształcenia, dokształcania i doskonalenia nauczycieli": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Pomoc ofiarom przemocy w rodzinie/Formy przemocy w rodzinie": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Podstawy psychopedagogiki twórczości i trening kreatywnego myślenia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Wspieranie rozwoju dziecka z zaburzeniami zachowania/Praca pedagogiczna z dzieckiem z zaburzeniami zachowania": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machaczek Gabriela"
+        ]
+      }
+    },
+    "Diagnoza pedagogiczna w edukacji elementarnej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machnio Dominika"
+        ]
+      }
+    },
+    "Metoda projektu we wczesnej edukacji/Praca metodą projektu we wczesnej edukacji": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machnio Dominika"
+        ]
+      }
+    },
+    "Organizacja procesu terapeutycznego/ Podstawy pracy terapeutycznej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machnio Dominika"
+        ]
+      }
+    },
+    "Podstawy edukacji technicznej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machnio Dominika"
+        ]
+      }
+    },
+    "Wspieranie rozwoju dziecka zdolnego/Praca pedagogiczna z dzieckiem zdolnym": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Machnio Dominika"
+        ]
+      }
+    },
+    "Emisja i higiena głosu": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Majzner Rafał"
+        ]
+      }
+    },
+    "Metodyka edukacji muzycznej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Majzner Rafał"
+        ]
+      }
+    },
+    "Metodyka edukacji informatycznej i posługiwania się technologią informacyjno-komunikacyjną": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Maksim-Dąbrowska Klaudia"
+        ]
+      }
+    },
+    "Etyka w pracy pedagogicznej/Etyka zawodu nauczyciela": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Miczka-Pajestka Monika"
+        ]
+      }
+    },
+    "Etyka zawodu nauczyciela/Etyka w pracy pedagogicznej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Miczka-Pajestka Monika"
+        ]
+      }
+    },
+    "Filozofia wychowania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Miczka-Pajestka Monika"
+        ]
+      }
+    },
+    "Metodyka edukacji zdrowotnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Modrzejewska Justyna"
+        ]
+      }
+    },
+    "Metodyka pracy z uczniem zdolnym i uzdolnionym/ Praca z z uczniem zdolnym i uzdolnionym": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Mrówka Katarzyna"
+        ]
+      }
+    },
+    "Metodyka zajęć dydaktyczno-wyrównawczych dla dzieci z trudnościami w nauce czytania i pisania/Praca dydaktyczno-wyrównawcza z dzieckiem z trudnościami w nauce czytania i pisania": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Mrówka Katarzyna"
+        ]
+      }
+    },
+    "Zajęcia integracyjne w przedszkolu i klasach I-III/Gry i zabawy integracyjne we wczesnej edukacji": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Mrówka Katarzyna"
+        ]
+      }
+    },
+    "Metodyka edukacji matematycznej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Zbigniew"
+        ]
+      }
+    },
+    "Pedagogika ogólna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Zbigniew"
+        ]
+      }
+    },
+    "Odrabianie zajęć Pptitkm /za 19.III/ 26.03": {
+      "Stacjonarne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Pawlak Justyna"
+        ]
+      }
+    },
+    "Podstawy edukacji polonistycznej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wojciechowska Justyna"
+        ]
+      }
+    },
+    "Podstawy edukacji społeczno-przyrodniczej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Pawlak Justyna"
+        ]
+      }
+    },
+    "Socjologia kultury": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Przybyła-Dumin Agnieszka"
+        ]
+      }
+    },
+    "Socjologia wychowania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Przybyła-Dumin Agnieszka"
+        ]
+      }
+    },
+    "Psychologia kliniczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Roszkowska Agnieszka"
+        ]
+      }
+    },
+    "Podstawy psychologii": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Roszkowska Agnieszka"
+        ]
+      }
+    },
+    "Psychopatologia wieku dziecięcego": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Roszkowska Agnieszka"
+        ]
+      }
+    },
+    "Arteterapia w pracy z małym dzieckiem/Sztuka w terapii": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Samulak Liliana"
+        ]
+      }
+    },
+    "Plastyka w pracy resocjalizacyjnej/Terapia przez sztukę w pracy resocjalizacyjnej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Samulak Liliana"
+        ]
+      }
+    },
+    "Tutoring we wczesnej edukacji": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Twaróg-Kanus Agnieszka"
+        ]
+      }
+    },
+    "Wybrane modele i koncepcje pedagogiki przedszkolnej/Tendencje i kierunki zmian we współczesnej pedagogice przedszkolnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Twaróg-Kanus Agnieszka"
+        ]
+      }
+    },
+    "Wspieranie rozwoju dziecka z zaburzeniami percepcji słuchowej/Praca z dzieckiem z zaburzeniami percepcji słuchowej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Twaróg-Kanus Agnieszka"
+        ]
+      }
+    },
+    "Kryminologia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Waluś Roman"
+        ]
+      }
+    },
+    "Prawne postępowanie w sprawach nieletnich": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Waluś Roman"
+        ]
+      }
+    },
+    "Teoretyczne podstawy wychowania": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Waluś Roman"
+        ]
+      }
+    },
+    "Drama we wczesnej edukacji/Gry i zabawy parateatralne we wczesnej edukacji, 3 godz. do 13.05": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Wojciechowska Justyna"
+        ]
+      }
+    },
+    "Metody badań pedagogicznych/Praca badawcza w pracy resocjalizacyjnej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Zawada Anna"
+        ]
+      }
+    },
+    "Metodyka edukacji plastycznej": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Zawada Ernest"
+        ]
+      }
+    },
+    "Struktury wizualne / Podstawy rysunku": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Zawada Ernest"
+        ]
+      }
+    }
+  },
+  "Katedra 150424": {
+    "Obliczenia inżynierskie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Antonik-Popiołek Patrycja"
+        ]
+      }
+    },
+    "Wytrzymałość materiałów 1": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Juraszek Janusz"
+        ]
+      }
+    },
+    "Fizyka I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bączek Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bączek Marcin"
+        ]
+      }
+    },
+    "Wybrane zagadnienia z fizyki": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bączek Marcin"
+        ]
+      }
+    },
+    "Fizyka 2": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Basiura-Cembala Monika",
+          "Kukulski Tomasz"
+        ]
+      }
+    },
+    "Podstawy fizyki miękkiej materii": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Basiura-Cembala Monika"
+        ]
+      }
+    },
+    "Rentgenografia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Basiura-Cembala Monika"
+        ]
+      }
+    },
+    "Badania jakościowe wody użytkowej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biniaś Dorota",
+          "Machnicka Alicja"
+        ]
+      }
+    },
+    "Gospodarka odpadami": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biniaś Dorota",
+          "Kuglarz Mariusz"
+        ]
+      }
+    },
+    "Projektowanie materiałów elastycznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biniaś Włodzimierz"
+        ]
+      }
+    },
+    "Spektroskopowe metody badań materiałów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biniaś Włodzimierz"
+        ]
+      }
+    },
+    "Instalacje budowlane": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Brachaczek Wacław"
+        ]
+      }
+    },
+    "Materiały budowlane 1": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brachaczek Wacław"
+        ]
+      }
+    },
+    "Technologia betonu": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brachaczek Wacław"
+        ]
+      }
+    },
+    "Biologia i ekologia ogólna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmura Damian",
+          "Salachna Anna",
+          "Żarnowiec Jan"
+        ]
+      }
+    },
+    "Biocenologia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmura Damian"
+        ]
+      }
+    },
+    "Statystyka": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmura Damian"
+        ]
+      }
+    },
+    "Synantropizacja układów przyrodniczych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Chmura Damian"
+        ]
+      }
+    },
+    "Instalacje proekologiczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drabczyk Kazimierz"
+        ]
+      }
+    },
+    "Efektywność energetyczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fabia Janusz"
+        ]
+      }
+    },
+    "Przetwórstwo tworzyw sztucznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fabia Janusz",
+          "Gawłowski Andrzej"
+        ]
+      }
+    },
+    "Chemia ogólna i analityczna": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Fryczkowska Beata"
+        ]
+      }
+    },
+    "Polimerowe materiały powłokotwórcze": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Fryczkowski Ryszard"
+        ]
+      }
+    },
+    "Fizyka": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Gabryś Tobiasz",
+          "Kukulski Tomasz"
+        ]
+      }
+    },
+    "Korozja techniczna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gabryś Tobiasz"
+        ]
+      }
+    },
+    "Ogrzewnictwo, wentylacja i klimatyzacja": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gawłowski Andrzej"
+        ]
+      }
+    },
+    "Geodezja": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gawłowski Paweł"
+        ]
+      }
+    },
+    "ACAD": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Graczyk Tadeusz"
+        ]
+      }
+    },
+    "Materiały i technologie kompozytowe": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Graczyk Tadeusz"
+        ]
+      }
+    },
+    "Podstawy metrologii": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kobiela-Mendrek Katarzyna"
+        ]
+      }
+    },
+    "Geosyntetyki i materiały w budownictwie": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Grzybowska-Pietras Joanna"
+        ]
+      }
+    },
+    "Zielone budownictwo": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Grzybowska-Pietras Joanna",
+          "Juzwa Anna"
+        ]
+      }
+    },
+    "Ekonomika budownictwa": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Elementy prawa i ochrony własności intelektualnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Instrumenty ekonomiczne w ochronie środowiska": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Kierowanie procesem inwestycyjnym": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Prawo budowlane": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Podstawy prawa i ochrona własności intelektualnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Tworzenie i rozwój form przedsiębiorczości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Harat Andrzej"
+        ]
+      }
+    },
+    "Gleboznawstwo i ochrona gleb": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jaguś Andrzej"
+        ]
+      }
+    },
+    "Ujęcia wód powierzchniowych i podziemnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jaguś Andrzej"
+        ]
+      }
+    },
+    "Sieci i instalacje sanitarne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jendroszczyk Anita"
+        ]
+      }
+    },
+    "Tech. i organizacja robót instalacyjnych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jendroszczyk Anita"
+        ]
+      }
+    },
+    "Metody obliczeniowe": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Juraszek Janusz"
+        ]
+      }
+    },
+    "Bezpieczeństwo konstrukcji budowlanych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Juzwa Anna"
+        ]
+      }
+    },
+    "Fundamenty specjalne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Juzwa Anna"
+        ]
+      }
+    },
+    "Mechanika gruntów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Juzwa Anna"
+        ]
+      }
+    },
+    "Konstrukcje betonowe 1": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "KB Vacat 1"
+        ]
+      }
+    },
+    "Złożone konstrukcje betonowe 1": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "KB Vacat 1"
+        ]
+      }
+    },
+    "Niezawodność i bezpieczeństwo systemów inż.": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kobiela-Mendrek Katarzyna",
+          "Przywara Lucyna"
+        ]
+      }
+    },
+    "Konstrukcje metalowe 2": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kowolik Marek"
+        ]
+      }
+    },
+    "Złożone konstrukcje metalowe 1": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kowolik Marek"
+        ]
+      }
+    },
+    "Melioracje": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kozak Janusz"
+        ]
+      }
+    },
+    "Metody kontrolii wód i ścieków": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Bożena"
+        ]
+      }
+    },
+    "Biotechnologia wody i ścieków": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Machnicka Alicja"
+        ]
+      }
+    },
+    "Seminarium dyplomowe": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Machnicka Alicja"
+        ]
+      }
+    },
+    "Hydrologia i gospodarka wodna": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madzia Marek"
+        ]
+      }
+    },
+    "Hydraulika i hydrologia": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Madzia Marek"
+        ]
+      }
+    },
+    "Zarządzanie wodą w mieście": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madzia Marek"
+        ]
+      }
+    },
+    "Organizacja i zarządzanie nowoczesnym przedsiębiorstwem wodno-kanalizacyjnym - przedmiot human./społ. 3": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Michalski Krzysztof"
+        ]
+      }
+    },
+    "Monitoring środowiska": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Bożena",
+          "Wierzbińska Monika"
+        ]
+      }
+    },
+    "Systemy oczyszczania ścieków": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Mrowiec Bożena"
+        ]
+      }
+    },
+    "Chemia środowiska": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wyszomirski Mirosław"
+        ]
+      }
+    },
+    "Rysunek techniczny": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Pietraszko Ewa",
+          "Walusiak Hubert"
+        ]
+      }
+    },
+    "Technologie proekologiczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Przywara Lucyna"
+        ]
+      }
+    },
+    "Sztuka wypowiedzi - przedmiot human./społ. 1": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Rom Monika"
+        ]
+      }
+    },
+    "Monitoring biologiczny i bioindykacja": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Salachna Anna"
+        ]
+      }
+    },
+    "Zarządzanie środowiskiem": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Salachna Anna"
+        ]
+      }
+    },
+    "Grafika inżynierska z elementami CAD": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Siry Roman",
+          "Walusiak Hubert"
+        ]
+      }
+    },
+    "Konstrukcje drewniane": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Siry Roman"
+        ]
+      }
+    },
+    "Prototypowanie 3D w budownictwie": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Walusiak Hubert"
+        ]
+      }
+    },
+    "Podstawy technologii przemysłowych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wierzbińska Monika"
+        ]
+      }
+    },
+    "Historia wynalazku - przedmiot human./społ. 2": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Wyszomirski Mirosław"
+        ]
+      }
+    },
+    "Nowoczesne budownictwo komunikacyjne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żak Anna"
+        ]
+      }
+    },
+    "Budownictwo ogólne 2": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żelazny Henryk"
+        ]
+      }
+    },
+    "Konstrukcje murowe": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Żelazny Henryk"
+        ]
+      }
+    }
+  },
+  "Katedra 6184": {
+    "Ochrona własności intelektualnej": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Barcik Agnieszka",
+          "Dziwiński Piotr"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Prawo gospodarcze": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Barcik Agnieszka"
+        ]
+      }
+    },
+    "Prawo": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Barcik Agnieszka",
+          "Dziwiński Piotr"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Seminarium": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Barcik Agnieszka",
+          "Jakubiec Marcin"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Statystyka opisowa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biesok Grzegorz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biesok Grzegorz"
+        ]
+      }
+    },
+    "Zarządzanie jakością": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biesok Grzegorz",
+          "Gajewska Paulina"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biesok Grzegorz",
+          "Gajewska Paulina",
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Zarządzanie procesami": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Biesok Grzegorz"
+        ]
+      }
+    },
+    "Informatyka w zarządzaniu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Owsiak Dariusz",
+          "Słowiak Barbara"
+        ]
+      }
+    },
+    "Logistyka dystrybucji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      }
+    },
+    "Nowoczesne koncepcje logistyczne": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Owsiak Dariusz"
+        ]
+      }
+    },
+    "Systemy transportu zbiorowego": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      }
+    },
+    "Zarządzanie logistyczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Wyród-Wróbel Jolanta"
+        ]
+      }
+    },
+    "Zarządzanie mobilnością": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      }
+    },
+    "Zarządzanie łańcuchem dostaw": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bylinko Leszek"
+        ]
+      }
+    },
+    "Prawo autorskie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Podstawy prawne w transporcie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Projekty unijne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Zarządzanie projektami": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Słowiak Barbara"
+        ]
+      }
+    },
+    "Zarządzanie społecznie odpowiedzialne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Dziwiński Piotr"
+        ]
+      }
+    },
+    "Kreowanie przestrzeni zawodowej": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Gajewska Paulina"
+        ]
+      }
+    },
+    "Zarządzanie jakością usług": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gajewska Paulina"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gajewska Paulina"
+        ]
+      }
+    },
+    "Ocena systemów zarządzania": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Podstawy jakości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Podstawy logistyki": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Projektowanie systemów zarządzania jakością": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Zarządzanie kryzysowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jakubiec Marcin"
+        ]
+      }
+    },
+    "Zarządzanie zapasami": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Owsiak Dariusz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Owsiak Dariusz"
+        ]
+      }
+    },
+    "Branżowe systemy zarządzania": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Słowiak Barbara"
+        ]
+      }
+    },
+    "Total quality management (w jęz.ang.)": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Słowiak Barbara"
+        ]
+      }
+    },
+    "Controlling": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    },
+    "Marketing": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    },
+    "Marketing internetowy": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    },
+    "Negocjacje i techniki sprzedaży": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    },
+    "Podstawy prowadzenia działalności gospodarczej / Podstawy przedsiębiorczości": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    },
+    "Techniki operacyjne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowski Tomasz"
+        ]
+      }
+    }
+  },
+  "Katedra 6185": {
+    "Globalne procesy społeczne / Zjawiska globalne: teorie i interpretacje": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Globalne procesy społeczne / Zjawiska globalne: teorie i interpretacje globalizacyjne": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Konwersatorium": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Komunikacja wewnętrzna / Komunikacja w biznesie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Podstawy public relations": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Podstawy socjologii": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Społeczeństwo informacyjne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Seminarium licencjackie": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta",
+          "Jeziorski Ireneusz"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Socjologia reklamy / Psychologia reklamy": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta"
+        ]
+      }
+    },
+    "Zarządzanie zasobami ludzkimi": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bąk-Szołucha Aneta",
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "Business Development Support Policy (w jęz.ang.)": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Business development support policy (w jęz.ang.)": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Diversity management (w jęz. ang.)": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Mikroekonomia": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Podstawy ekonomii": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Polityka edukacyjna i rynek pracy": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Small business (w jęz.ang.)": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Zarządzanie oświatą": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Bieńkowska Beata"
+        ]
+      }
+    },
+    "Instytucje w UE": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Zielińska Agnieszka"
+        ]
+      }
+    },
+    "Kadry i płace": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      }
+    },
+    "Makroekonomia": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      }
+    },
+    "Przedsiębiorczość i innowacje": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Czerwińska-Lubszczyk Agnieszka"
+        ]
+      }
+    },
+    "Analiza rynków finansowych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      }
+    },
+    "Finanse przedsiębiorstw": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Michalski Dariusz"
+        ]
+      }
+    },
+    "Finanse zielonej transformacji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      }
+    },
+    "Narzędzia w analizie ekonomicznej biznesu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      }
+    },
+    "Wprowadzenie do finansów międzynarodowych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dusza Dominika"
+        ]
+      }
+    },
+    "Etyka w administracji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dzień Mirosław"
+        ]
+      }
+    },
+    "Filozofia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dzień Mirosław"
+        ]
+      }
+    },
+    "Problemy etyczne w biznesie": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Dzień Mirosław"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "Seminarium": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dzień Mirosław",
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "PR w administracji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "Współczesne organizacje": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "Zarządzanie karierą zawodową": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Gąsiorek-Madzia Sylwia"
+        ]
+      }
+    },
+    "Dynamika zmian współczesnego społeczeństwa polskiego": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Metody wizualne / Antropologia wizualna": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Metodologia w nauce": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Problemy etyczne w zawodzie socjologa": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Socjologia wizualna / Badanie obrazów społecznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Wykład monograficzny": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jeziorski Ireneusz"
+        ]
+      }
+    },
+    "Elementy socjotechniki / Inżynieria społeczna": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Korzewski Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Korzewski Marcin"
+        ]
+      }
+    },
+    "Socjologia mediów / Mass media i nowe media": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Korzewski Marcin"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Korzewski Marcin"
+        ]
+      }
+    },
+    "Analizy statystyczne na bazach danych": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      }
+    },
+    "Metody badań socjologicznych": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      }
+    },
+    "Metody statystyczne 2": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      }
+    },
+    "Procesy demograficzne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      }
+    },
+    "Projekt socjologiczny": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Kubisz-Muła Łukasz"
+        ]
+      }
+    },
+    "Analiza portfelowa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Musialik Grażyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Musialik Grażyna"
+        ]
+      }
+    },
+    "Analiza przedsięwzięć inwestycyjnych firmy": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Musialik Grażyna"
+        ]
+      }
+    },
+    "Rachunkowość zarządcza": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Musialik Grażyna"
+        ]
+      }
+    },
+    "Strategie finansowania organizacji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Musialik Grażyna"
+        ]
+      }
+    },
+    "Budowanie zespołu / Metody pracy z grupą i zespołem": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Coaching / Podstawy coachingu i mentoringu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Komunikacja interpersonalna": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Konsultacje": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "nieznany",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Motywowanie pracowników - uwarunkowania psychospołeczne / Psychologia gratyfikacji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Podstawy coachingu i mentoringu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "warsztaty",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Psychologia w biznesie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Piątek Katarzyna"
+        ]
+      }
+    },
+    "Analiza modeli biznesowych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Piecuch Paweł"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Piecuch Paweł"
+        ]
+      }
+    },
+    "Analiza polityk publicznych / Analiza polityk miejskich": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      }
+    },
+    "Metody prezentacji danych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      }
+    },
+    "Podstawy ewaluacji": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Wróblewska-Jachna Joanna"
+        ]
+      }
+    },
+    "Interpersonal communication (w jęz. ang.)": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Zielińska Agnieszka"
+        ]
+      }
+    }
+  },
+  "Katedra 6188": {
+    "Monitoring w systemach ITS": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Konior Tomasz"
+        ]
+      }
+    },
+    "Infrastruktura transportu": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowski Krzysztof"
+        ]
+      }
+    },
+    "Bezzałogowe statki powietrzne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      }
+    },
+    "Drony w turystyce": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      }
+    },
+    "Podstawy automatyzacji procesów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Sterowanie i monitoring": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Systemy mikroprocesorowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Honkisz Marcin"
+        ]
+      }
+    },
+    "Systemy sterowania ruchem drogowym": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Środki transportu II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Logistyka": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz",
+          "Sordyl Justyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz",
+          "Sordyl Justyna"
+        ]
+      }
+    },
+    "Logistyka zaopatrzenia": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Podstawy socjologii": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Seminarium dyplomowe I": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Kubański Mariusz",
+          "Płosa Jerzy"
+        ]
+      }
+    },
+    "Systemy logistyczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Systemy zarządzania jakością w transporcie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Zarządzanie przedsiębiorstwem logistycznym": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Zarządzanie łańcuchem dostaw": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Kubański Mariusz"
+        ]
+      }
+    },
+    "Inżynieria ruchu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Oprogramowanie użytkowe": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Usługi i systemy telematyczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Bezpieczeństwo transportu samochodowego": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Budowa środków transportu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Zarządzanie flotą pojazdów": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej",
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Środki transportu I": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Maczyński Andrzej"
+        ]
+      }
+    },
+    "Drgania mechaniczne": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Płosa Jerzy"
+        ]
+      }
+    },
+    "Grafika inżynierska A": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Płosa Jerzy"
+        ]
+      }
+    },
+    "Mechanika techniczna III": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Płosa Jerzy"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Płosa Jerzy"
+        ]
+      }
+    },
+    "Teoria niezawodności i bezpieczeństwa": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Płosa Jerzy"
+        ]
+      }
+    },
+    "Metodyka prowadzenia projektów badawczo-rozwojowych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Pomiary inżynierskie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Pomiary potoków ruchu": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Teoria potoków ruchu w transporcie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Ryguła Artur"
+        ]
+      }
+    },
+    "Bezzałogowe statki powietrzne, 3 x 3 godz. (zj. 1-3)": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      }
+    },
+    "Challenges of transport - case study (w jęz. ang.)": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      }
+    },
+    "Rozwiązania proekologiczne w logistyce": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Sordyl Justyna"
+        ]
+      }
+    }
+  },
+  "Katedra 52698": {
+    "Desing thinking": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Dudzik-Lewicka Irena"
+        ]
+      }
+    },
+    "Przedsiębiorczość": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dudzik-Lewicka Irena"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Dudzik-Lewicka Irena"
+        ]
+      }
+    },
+    "Zarządzanie firmą": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Dudzik-Lewicka Irena"
+        ]
+      }
+    },
+    "Zarządzanie strategiczne": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Dudzik-Lewicka Irena"
+        ]
+      }
+    },
+    "Biznes plan": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Howaniec Honorata"
+        ]
+      }
+    },
+    "Podstawy marketingu": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowska Katarzyna"
+        ]
+      }
+    },
+    "Społeczna odpowiedzialność biznesu": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Howaniec Honorata"
+        ]
+      }
+    },
+    "Seminarium": {
+      "Stacjonarne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Jędrzejczyk Irena"
+        ]
+      }
+    },
+    "Content marketing": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zontek Zbigniew"
+        ]
+      }
+    },
+    "Strategie marketingowe": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Lipianin-Zontek Ewa"
+        ]
+      }
+    },
+    "Turystyka w sektorze publicznym / Instytucje rynkowe w turystyce": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Lipianin-Zontek Ewa"
+        ]
+      }
+    },
+    "Zarządzanie i planowanie marketingowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Lipianin-Zontek Ewa"
+        ]
+      }
+    },
+    "Zarządzanie produktem": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Lipianin-Zontek Ewa"
+        ]
+      }
+    },
+    "Analiza ekonomiczna organizacji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zontek Zbigniew"
+        ]
+      }
+    },
+    "Nauka o organizacji": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madyda Aneta"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Otoczenie kulturowe w biznesie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madyda Aneta"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madyda Aneta"
+        ]
+      }
+    },
+    "Savoir vivre w biznesie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madyda Aneta"
+        ]
+      }
+    },
+    "Zarządzanie przedsiębiorstwem turystycznym": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Madyda Aneta"
+        ]
+      }
+    },
+    "Architektura oganizacji": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Ofertowanie usług turystycznych": {
+      "Stacjonarne": {
+        "Typ": "projektowanie",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Przywództwo w organizacji": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Podstawy zarządzania": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Techniki menedżerskie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Zarządzanie karierą zawodową": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Szewczyk Irena"
+        ]
+      }
+    },
+    "Badania marketingowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zontek Zbigniew"
+        ]
+      }
+    },
+    "Metody badań jakościowych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zontek Zbigniew"
+        ]
+      }
+    },
+    "Zachowania konsumentów usług turystycznych / Prosument w usługach turystycznych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Zontek Zbigniew"
+        ]
+      }
+    },
+    "Marketing": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowska Katarzyna"
+        ]
+      }
+    },
+    "Marketing internetowy": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Żyminkowska Katarzyna"
+        ]
+      }
+    },
+    "Reklama kontekstowa": {
+      "Stacjonarne": {
+        "Typ": "ćwiczenia",
+        "Prowadzący": [
+          "Żyminkowska Katarzyna"
+        ]
+      }
+    }
+  },
+  "Katedra 52699": {
+    "Contemporary transport systems (w jęz. ang.)": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamiec-Wójcik Iwona"
+        ]
+      }
+    },
+    "Metody matematyczne w transporcie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Adamiec-Wójcik Iwona"
+        ]
+      }
+    },
+    "Inżynieria bezpieczeństwa w transporcie": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Ochrona środowiska w transporcie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Podstawy grafiki komputerowej": {
+      "Stacjonarne": {
+        "Typ": "laboratorium",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Podstawy programowania": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drąg Łukasz"
+        ]
+      }
+    },
+    "Seminarium dyplomowe II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "seminarium",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Systemy transportowe": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Zarządzanie bezpieczeństwem": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Brzozowska Lucyna"
+        ]
+      }
+    },
+    "Elementy telematyki transportu": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drąg Łukasz"
+        ]
+      }
+    },
+    "Prezentacja wyników badań": {
+      "Stacjonarne": {
+        "Typ": "konwersatorium",
+        "Prowadzący": [
+          "Drąg Łukasz"
+        ]
+      }
+    },
+    "SIP w transporcie": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drąg Łukasz"
+        ]
+      }
+    },
+    "Zastosowanie GIS w logistyce": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Drąg Łukasz"
+        ]
+      }
+    },
+    "Bazy danych II": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      },
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      }
+    },
+    "Bazy danych w logistyce": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Grinke Leonard"
+        ]
+      }
+    },
+    "Filozofia": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jabłonka Jarosław"
+        ]
+      }
+    },
+    "Informatyka III A": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jabłonka Jarosław"
+        ]
+      }
+    },
+    "Modelowanie systemów transportowych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Jabłonka Jarosław"
+        ]
+      }
+    },
+    "Bazy danych": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      },
+      "Niestacjonarne Wieczorowe": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      },
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      }
+    },
+    "Grafika inżynierska": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      }
+    },
+    "Informatyka III": {
+      "Stacjonarne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      }
+    },
+    "Projektowanie urządzeń transporowych": {
+      "Niestacjonarne Zaoczne": {
+        "Typ": "wykład",
+        "Prowadzący": [
+          "Nowak Andrzej"
+        ]
+      }
+    }
+  }
+}
