@@ -14,12 +14,12 @@ Przed uruchomieniem projektu upewnij się, że masz zainstalowane:
 
 1. **Sklonuj repozytorium:**
 
-   ```bash
+```bash
    git clone https://github.com/patrykplonka/UBB-PLAN-SCRAPPER
-    ```
+```
 2. **Przejdź do folderu frontend**
 
-  ```bash
+```bash
 cd frontend
 ```
 3. **Zainstaluj zależności:**
