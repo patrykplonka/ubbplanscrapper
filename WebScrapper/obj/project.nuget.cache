@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tD/LF7mQYmI=",
+  "dgSpecHash": "lsFAMbl25F4=",
   "success": true,
-  "projectFilePath": "D:\\Git Training\\Test\\ZombieHunterPTG\\UBB-PLAN-SCRAPPER\\WebScrapper\\WebScrapper.csproj",
+  "projectFilePath": "D:\\Git Training\\Test\\ubbplaner\\UBB-PLAN-SCRAPPER\\WebScrapper\\WebScrapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Komputer\\.nuget\\packages\\htmlagilitypack\\1.11.73\\htmlagilitypack.1.11.73.nupkg.sha512",
     "C:\\Users\\Komputer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",

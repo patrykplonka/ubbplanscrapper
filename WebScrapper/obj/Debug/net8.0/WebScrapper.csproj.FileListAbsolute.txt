@@ -21,3 +21,26 @@ C:\Users\patry\Documents\GitHub\Projekt\WebScrapper\obj\Debug\net8.0\refint\WebS
 C:\Users\patry\Documents\GitHub\Projekt\WebScrapper\obj\Debug\net8.0\WebScrapper.pdb
 C:\Users\patry\Documents\GitHub\Projekt\WebScrapper\obj\Debug\net8.0\WebScrapper.genruntimeconfig.cache
 C:\Users\patry\Documents\GitHub\Projekt\WebScrapper\obj\Debug\net8.0\ref\WebScrapper.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebScrapper.exe
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebScrapper.deps.json
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebScrapper.runtimeconfig.json
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebScrapper.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebScrapper.pdb
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\HtmlAgilityPack.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\bin\Debug\net8.0\WebDriver.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.csproj.AssemblyReference.cache
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.AssemblyInfoInputs.cache
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.AssemblyInfo.cs
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.csproj.CoreCompileInputs.cache
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.sourcelink.json
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrap.373E154B.Up2Date
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\refint\WebScrapper.dll
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.pdb
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\WebScrapper.genruntimeconfig.cache
+D:\Git Training\Test\ubbplaner\UBB-PLAN-SCRAPPER\WebScrapper\obj\Debug\net8.0\ref\WebScrapper.dll
