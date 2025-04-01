@@ -64,91 +64,95 @@ const App = () => {
 
   // Funkcja zwracająca tryby studiów dla wybranego przedmiotu i prowadzącego
   const getModesForSubjectAndCoordinator = (subject) => {
-    if (!subject) return []; // Jeśli nie wybrano przedmiotu, zwracamy pustą tablicę
-    const modes = new Set(); // Zbiór unikalnych trybów
+    if (!subject) return [];
+    const modes = new Set();
     Object.values(data).forEach((dept) => {
       if (dept[subject]) {
-        // Sprawdzamy, czy przedmiot istnieje w wydziale
-        Object.entries(dept[subject]).forEach(([mode, details]) => {
-          if (
-            !selectedCoordinator || // Jeśli nie wybrano prowadzącego, dodaj wszystkie tryby
-            details.Prowadzący.includes(selectedCoordinator) // Albo jeśli prowadzący jest na liście
-          ) {
-            modes.add(mode); // Dodanie trybu do zbioru
-          }
+        Object.keys(dept[subject]).forEach((mode) => {
+          Object.values(dept[subject][mode]).forEach((typeDetails) => {
+            if (
+              !selectedCoordinator ||
+              typeDetails.includes(selectedCoordinator)
+            ) {
+              modes.add(mode);
+            }
+          });
         });
       }
     });
-    return Array.from(modes); // Konwersja na tablicę
+    return Array.from(modes);
   };
-
   // Funkcja zwracająca typy zajęć dla wybranego przedmiotu, trybu i prowadzącego
   const getTypesForCoordinatorAndSubject = () => {
-    const types = new Set(); // Zbiór unikalnych typów zajęć
+    const types = new Set();
     Object.values(data).forEach((dept) => {
       Object.entries(dept).forEach(([subject, modes]) => {
         if (!selectedSubject || subject === selectedSubject) {
-          // Filtruj tylko wybrany przedmiot
-          Object.entries(modes).forEach(([mode, details]) => {
+          Object.entries(modes).forEach(([mode, typeDetails]) => {
             if (
               (!selectedCoordinator ||
-                details.Prowadzący.includes(selectedCoordinator)) && // Filtr prowadzącego
-              (!selectedMode || mode === selectedMode) // Filtr trybu
+                Object.values(typeDetails).some((coords) =>
+                  coords.includes(selectedCoordinator)
+                )) &&
+              (!selectedMode || mode === selectedMode)
             ) {
-              types.add(details.Typ); // Dodanie typu zajęć do zbioru
+              Object.keys(typeDetails).forEach((type) => types.add(type));
             }
           });
         }
       });
     });
-    return Array.from(types); // Konwersja na tablicę
+    return Array.from(types);
   };
 
   // Funkcja zwracająca wyniki filtrowania na podstawie wybranych kryteriów
   const getFilteredResults = () => {
-    const results = []; // Tablica wyników
+    const results = [];
     Object.values(data).forEach((dept) => {
       Object.entries(dept).forEach(([subject, modes]) => {
-        Object.entries(modes).forEach(([mode, details]) => {
-          // Sprawdzanie zgodności z wybranymi filtrami
-          const matchesSubject =
-            !selectedSubject || subject === selectedSubject;
-          const matchesMode = !selectedMode || mode === selectedMode;
-          const matchesCoordinator =
-            !selectedCoordinator ||
-            details.Prowadzący.includes(selectedCoordinator);
-          const matchesType = !selectedType || details.Typ === selectedType;
+        Object.entries(modes).forEach(([mode, typeDetails]) => {
+          Object.entries(typeDetails).forEach(([type, coordinators]) => {
+            const matchesSubject =
+              !selectedSubject || subject === selectedSubject;
+            const matchesMode = !selectedMode || mode === selectedMode;
+            const matchesCoordinator =
+              !selectedCoordinator ||
+              coordinators.includes(selectedCoordinator);
+            const matchesType = !selectedType || type === selectedType;
 
-          if (
-            matchesSubject &&
-            matchesMode &&
-            matchesCoordinator &&
-            matchesType
-          ) {
-            results.push({
-              subject, // Przedmiot
-              mode, // Tryb
-              type: details.Typ, // Typ zajęć
-              coordinators: details.Prowadzący, // Lista prowadzących
-            });
-          }
+            if (
+              matchesSubject &&
+              matchesMode &&
+              matchesCoordinator &&
+              matchesType
+            ) {
+              results.push({
+                subject,
+                mode,
+                type,
+                coordinators,
+              });
+            }
+          });
         });
       });
     });
-    return results; // Zwrócenie wyników
+    return results;
   };
 
   // Wyświetlanie komunikatu podczas ładowania danych
   if (loading) {
-    return <div className="app-container">Ładowanie danych...</div>;
+    return (
+      <div className="app-container">Ładowanie danych, proszę czekać...</div>
+    );
   }
 
   // Pobieranie danych do wyboru w selectach
-  const coordinators = getAllCoordinators(); // Lista prowadzących
-  const subjects = getSubjectsForCoordinator(); // Lista przedmiotów
-  const modes = getModesForSubjectAndCoordinator(selectedSubject); // Lista trybów
-  const types = getTypesForCoordinatorAndSubject(); // Lista typów zajęć
-  const filteredResults = getFilteredResults(); // Wyniki filtrowania
+  const coordinators = getAllCoordinators();
+  const subjects = getSubjectsForCoordinator();
+  const modes = getModesForSubjectAndCoordinator(selectedSubject);
+  const types = getTypesForCoordinatorAndSubject();
+  const filteredResults = getFilteredResults();
 
   // Logowanie do debugowania (opcjonalne)
   console.log("Selected Subject:", selectedSubject);
