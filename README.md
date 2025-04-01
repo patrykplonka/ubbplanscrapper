@@ -38,4 +38,3 @@ npm start
 
 Aplikacja powinna uruchomić się na http://localhost:3000/
 
-t
