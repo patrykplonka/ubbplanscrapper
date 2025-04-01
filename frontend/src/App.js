@@ -185,12 +185,12 @@ const App = () => {
     [getFilteredResults]
   );
 
-  const hasAnyFilter =
-    selectedSubject || selectedMode || selectedCoordinator || selectedType;
+  // const hasAnyFilter =
+  //   selectedSubject || selectedMode || selectedCoordinator || selectedType;
 
-  if (loading) {
-    return <div className="app-container">Ładowanie danych...</div>;
-  }
+  // if (loading) {
+  //   return <div className="app-container">Ładowanie danych...</div>;
+  // }
 
   // if (error) {
   //   return <div className="app-container">Błąd ładowania danych: {error}</div>;
