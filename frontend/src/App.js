@@ -48,12 +48,14 @@ const App = () => {
     Object.values(data).forEach((dept) => {
       Object.entries(dept).forEach(([subject, modes]) => {
         Object.values(modes).forEach((mode) => {
-          if (
-            !selectedCoordinator || // Jeśli nie wybrano prowadzącego, dodaj wszystkie przedmioty
-            mode.Prowadzący.includes(selectedCoordinator) // Albo jeśli prowadzący jest na liście
-          ) {
-            subjects.add(subject); // Dodanie przedmiotu do zbioru
-          }
+          Object.values(mode).forEach((typeDetails) => {
+            if (
+              !selectedCoordinator ||
+              typeDetails.includes(selectedCoordinator)
+            ) {
+              subjects.add(subject);
+            }
+          });
         });
       });
     });
