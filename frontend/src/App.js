@@ -192,9 +192,9 @@ const App = () => {
     return <div className="app-container">Ładowanie danych...</div>;
   }
 
-  if (error) {
-    return <div className="app-container">Błąd ładowania danych: {error}</div>;
-  }
+  // if (error) {
+  //   return <div className="app-container">Błąd ładowania danych: {error}</div>;
+  // }
 
   return (
     <div className="app-container">
