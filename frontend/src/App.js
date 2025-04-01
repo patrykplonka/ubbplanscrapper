@@ -3,7 +3,6 @@ import "./App.css";
 
 // Główny komponent aplikacji
 const App = () => {
-  // Stan aplikacji: dane, wybrane filtry i status ładowania
   const [data, setData] = useState({});
   const [selectedSubject, setSelectedSubject] = useState("");
   const [selectedMode, setSelectedMode] = useState("");
@@ -11,21 +10,18 @@ const App = () => {
   const [selectedType, setSelectedType] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Efekt pobierający dane z PLAN.json przy pierwszym renderowaniu
   useEffect(() => {
     fetch("/PLAN.json")
-      .then((res) => res.json()) // Konwersja odpowiedzi na JSON
+      .then((res) => res.json())
       .then((jsonData) => {
-        setData(jsonData); // Ustawienie danych w stanie
-        setLoading(false); // Wyłączenie ładowania po sukcesie
+        setData(jsonData);
+        setLoading(false);
       })
       .catch((error) => {
-        console.error("Błąd wczytywania danych:", error); // Logowanie błędu
-        setLoading(false); // Wyłączenie ładowania w przypadku błędu
+        console.error("Błąd wczytywania danych:", error);
+        setLoading(false);
       });
-  }, []); // Puste zależności - wykonuje się tylko raz
-
-  // Reszta kodu pozostaje bez zmian...
+  }, []);
 
   // Funkcja zwracająca posortowaną listę wszystkich unikalnych prowadzących
   const getAllCoordinators = () => {
@@ -34,7 +30,11 @@ const App = () => {
       Object.values(dept).forEach((subject) => {
         Object.values(subject).forEach((mode) => {
           Object.values(mode).forEach((typeDetails) => {
-            typeDetails.forEach((coord) => coordinators.add(coord));
+            if (Array.isArray(typeDetails)) {
+              typeDetails.forEach((coord) => coordinators.add(coord));
+            } else if (typeof typeDetails === "string") {
+              coordinators.add(typeDetails);
+            }
           });
         });
       });
@@ -44,7 +44,7 @@ const App = () => {
 
   // Funkcja zwracająca listę przedmiotów dla wybranego prowadzącego
   const getSubjectsForCoordinator = () => {
-    const subjects = new Set(); // Zbiór unikalnych przedmiotów
+    const subjects = new Set();
     Object.values(data).forEach((dept) => {
       Object.entries(dept).forEach(([subject, modes]) => {
         Object.values(modes).forEach((mode) => {
@@ -59,7 +59,7 @@ const App = () => {
         });
       });
     });
-    return Array.from(subjects); // Konwersja na tablicę
+    return Array.from(subjects);
   };
 
   // Funkcja zwracająca tryby studiów dla wybranego przedmiotu i prowadzącego
@@ -82,6 +82,7 @@ const App = () => {
     });
     return Array.from(modes);
   };
+
   // Funkcja zwracająca typy zajęć dla wybranego przedmiotu, trybu i prowadzącego
   const getTypesForCoordinatorAndSubject = () => {
     const types = new Set();
@@ -105,7 +106,7 @@ const App = () => {
     return Array.from(types);
   };
 
-  // Funkcja zwracająca wyniki filtrowania na podstawie wybranych kryteriów
+  // Funkcja zwracająca wyniki filtrowania
   const getFilteredResults = () => {
     const results = [];
     Object.values(data).forEach((dept) => {
@@ -140,32 +141,21 @@ const App = () => {
     return results;
   };
 
-  // Wyświetlanie komunikatu podczas ładowania danych
   if (loading) {
-    return (
-      <div className="app-container">Ładowanie danych, proszę czekać...</div>
-    );
+    return <div className="app-container">Ładowanie danych...</div>;
   }
 
-  // Pobieranie danych do wyboru w selectach
   const coordinators = getAllCoordinators();
   const subjects = getSubjectsForCoordinator();
   const modes = getModesForSubjectAndCoordinator(selectedSubject);
   const types = getTypesForCoordinatorAndSubject();
   const filteredResults = getFilteredResults();
 
-  // Logowanie do debugowania (opcjonalne)
-  // console.log("Selected Subject:", selectedSubject);
-  // console.log("Selected Mode:", selectedMode);
-  // console.log("Available Types:", types);
-
-  // Renderowanie interfejsu użytkownika
   return (
     <div className="app-container">
       <div className="schedule-box">
         <h1 className="title">Plan zajęć</h1>
 
-        {/* Wybór prowadzącego */}
         <div className="select-container">
           <label className="select-label">Wybierz prowadzącego</label>
           <select
@@ -187,16 +177,15 @@ const App = () => {
           </select>
         </div>
 
-        {/* Wybór przedmiotu */}
         <div className="select-container">
           <label className="select-label">Wybierz przedmiot</label>
           <select
             className="select-input"
             value={selectedSubject}
             onChange={(e) => {
-              setSelectedSubject(e.target.value); // Ustawienie wybranego przedmiotu
-              setSelectedMode(""); // Reset wyboru trybu
-              setSelectedType(""); // Reset wyboru typu
+              setSelectedSubject(e.target.value);
+              setSelectedMode("");
+              setSelectedType("");
             }}
           >
             <option value="">-- Wybierz przedmiot --</option>
@@ -208,15 +197,14 @@ const App = () => {
           </select>
         </div>
 
-        {/* Wybór trybu studiów */}
         <div className="select-container">
           <label className="select-label">Wybierz tryb studiów</label>
           <select
             className="select-input"
             value={selectedMode}
             onChange={(e) => {
-              setSelectedMode(e.target.value); // Ustawienie wybranego trybu
-              setSelectedType(""); // Reset wyboru typu
+              setSelectedMode(e.target.value);
+              setSelectedType("");
             }}
           >
             <option value="">-- Wybierz tryb --</option>
@@ -228,13 +216,12 @@ const App = () => {
           </select>
         </div>
 
-        {/* Wybór typu zajęć */}
         <div className="select-container">
           <label className="select-label">Wybierz typ zajęć</label>
           <select
             className="select-input"
             value={selectedType}
-            onChange={(e) => setSelectedType(e.target.value)} // Ustawienie wybranego typu
+            onChange={(e) => setSelectedType(e.target.value)}
           >
             <option value="">-- Wybierz typ --</option>
             {types.map((type) => (
@@ -245,7 +232,6 @@ const App = () => {
           </select>
         </div>
 
-        {/* Wyświetlanie wyników */}
         {filteredResults.length > 0 &&
         (selectedSubject ||
           selectedMode ||
