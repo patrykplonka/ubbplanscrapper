@@ -634,7 +634,7 @@ class Program
         {
             Console.WriteLine($"Błąd w ProcessFaculty: {e.Message}");
         }
-    }
+    }//ssssssssssssss
 
     static Dictionary<string, Dictionary<string, Dictionary<string, object>>> TransformToJson(List<Dictionary<string, string>> results)
     {
