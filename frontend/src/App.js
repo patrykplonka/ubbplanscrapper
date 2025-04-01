@@ -155,9 +155,9 @@ const App = () => {
   const filteredResults = getFilteredResults();
 
   // Logowanie do debugowania (opcjonalne)
-  console.log("Selected Subject:", selectedSubject);
-  console.log("Selected Mode:", selectedMode);
-  console.log("Available Types:", types);
+  // console.log("Selected Subject:", selectedSubject);
+  // console.log("Selected Mode:", selectedMode);
+  // console.log("Available Types:", types);
 
   // Renderowanie interfejsu użytkownika
   return (
@@ -172,10 +172,10 @@ const App = () => {
             className="select-input"
             value={selectedCoordinator}
             onChange={(e) => {
-              setSelectedCoordinator(e.target.value); // Ustawienie wybranego prowadzącego
-              setSelectedSubject(""); // Reset wyboru przedmiotu
-              setSelectedMode(""); // Reset wyboru trybu
-              setSelectedType(""); // Reset wyboru typu
+              setSelectedCoordinator(e.target.value);
+              setSelectedSubject("");
+              setSelectedMode("");
+              setSelectedType("");
             }}
           >
             <option value="">-- Wybierz prowadzącego --</option>
