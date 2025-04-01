@@ -4,12 +4,12 @@ import "./App.css";
 // Główny komponent aplikacji
 const App = () => {
   // Stan aplikacji: dane, wybrane filtry i status ładowania
-  const [data, setData] = useState({}); // Przechowuje dane z pliku PLAN.json
-  const [selectedSubject, setSelectedSubject] = useState(""); // Wybrany przedmiot
-  const [selectedMode, setSelectedMode] = useState(""); // Wybrany tryb studiów
-  const [selectedCoordinator, setSelectedCoordinator] = useState(""); // Wybrany prowadzący
-  const [selectedType, setSelectedType] = useState(""); // Wybrany typ zajęć (poprawiono literówkę)
-  const [loading, setLoading] = useState(true); // Status ładowania danych
+  const [data, setData] = useState({});
+  const [selectedSubject, setSelectedSubject] = useState("");
+  const [selectedMode, setSelectedMode] = useState("");
+  const [selectedCoordinator, setSelectedCoordinator] = useState("");
+  const [selectedType, setSelectedType] = useState("");
+  const [loading, setLoading] = useState(true);
 
   // Efekt pobierający dane z PLAN.json przy pierwszym renderowaniu
   useEffect(() => {
@@ -29,15 +29,17 @@ const App = () => {
 
   // Funkcja zwracająca posortowaną listę wszystkich unikalnych prowadzących
   const getAllCoordinators = () => {
-    const coordinators = new Set(); // Zbiór unikalnych prowadzących
+    const coordinators = new Set();
     Object.values(data).forEach((dept) => {
       Object.values(dept).forEach((subject) => {
         Object.values(subject).forEach((mode) => {
-          mode.Prowadzący.forEach((coord) => coordinators.add(coord)); // Dodanie prowadzącego do zbioru
+          Object.values(mode).forEach((typeDetails) => {
+            typeDetails.forEach((coord) => coordinators.add(coord));
+          });
         });
       });
     });
-    return Array.from(coordinators).sort((a, b) => a.localeCompare(b, "pl")); // Konwersja na tablicę i sortowanie alfabetyczne
+    return Array.from(coordinators).sort((a, b) => a.localeCompare(b, "pl"));
   };
 
   // Funkcja zwracająca listę przedmiotów dla wybranego prowadzącego
@@ -63,7 +65,8 @@ const App = () => {
     if (!subject) return []; // Jeśli nie wybrano przedmiotu, zwracamy pustą tablicę
     const modes = new Set(); // Zbiór unikalnych trybów
     Object.values(data).forEach((dept) => {
-      if (dept[subject]) { // Sprawdzamy, czy przedmiot istnieje w wydziale
+      if (dept[subject]) {
+        // Sprawdzamy, czy przedmiot istnieje w wydziale
         Object.entries(dept[subject]).forEach(([mode, details]) => {
           if (
             !selectedCoordinator || // Jeśli nie wybrano prowadzącego, dodaj wszystkie tryby
@@ -82,10 +85,12 @@ const App = () => {
     const types = new Set(); // Zbiór unikalnych typów zajęć
     Object.values(data).forEach((dept) => {
       Object.entries(dept).forEach(([subject, modes]) => {
-        if (!selectedSubject || subject === selectedSubject) { // Filtruj tylko wybrany przedmiot
+        if (!selectedSubject || subject === selectedSubject) {
+          // Filtruj tylko wybrany przedmiot
           Object.entries(modes).forEach(([mode, details]) => {
             if (
-              (!selectedCoordinator || details.Prowadzący.includes(selectedCoordinator)) && // Filtr prowadzącego
+              (!selectedCoordinator ||
+                details.Prowadzący.includes(selectedCoordinator)) && // Filtr prowadzącego
               (!selectedMode || mode === selectedMode) // Filtr trybu
             ) {
               types.add(details.Typ); // Dodanie typu zajęć do zbioru
@@ -104,13 +109,20 @@ const App = () => {
       Object.entries(dept).forEach(([subject, modes]) => {
         Object.entries(modes).forEach(([mode, details]) => {
           // Sprawdzanie zgodności z wybranymi filtrami
-          const matchesSubject = !selectedSubject || subject === selectedSubject;
+          const matchesSubject =
+            !selectedSubject || subject === selectedSubject;
           const matchesMode = !selectedMode || mode === selectedMode;
           const matchesCoordinator =
-            !selectedCoordinator || details.Prowadzący.includes(selectedCoordinator);
+            !selectedCoordinator ||
+            details.Prowadzący.includes(selectedCoordinator);
           const matchesType = !selectedType || details.Typ === selectedType;
 
-          if (matchesSubject && matchesMode && matchesCoordinator && matchesType) {
+          if (
+            matchesSubject &&
+            matchesMode &&
+            matchesCoordinator &&
+            matchesType
+          ) {
             results.push({
               subject, // Przedmiot
               mode, // Tryb
@@ -229,16 +241,21 @@ const App = () => {
 
         {/* Wyświetlanie wyników */}
         {filteredResults.length > 0 &&
-        (selectedSubject || selectedMode || selectedCoordinator || selectedType) ? (
+        (selectedSubject ||
+          selectedMode ||
+          selectedCoordinator ||
+          selectedType) ? (
           <div className="result-box">
             <h2 className="result-title">Wyniki</h2>
             {filteredResults.map((result, index) => (
               <div key={index} className="result-item">
                 <p>
-                  <span className="result-label">Przedmiot:</span> {result.subject}
+                  <span className="result-label">Przedmiot:</span>{" "}
+                  {result.subject}
                 </p>
                 <p>
-                  <span className="result-label">Tryb studiów:</span> {result.mode}
+                  <span className="result-label">Tryb studiów:</span>{" "}
+                  {result.mode}
                 </p>
                 <p>
                   <span className="result-label">Typ zajęć:</span> {result.type}
@@ -250,7 +267,10 @@ const App = () => {
               </div>
             ))}
           </div>
-        ) : selectedSubject || selectedMode || selectedCoordinator || selectedType ? (
+        ) : selectedSubject ||
+          selectedMode ||
+          selectedCoordinator ||
+          selectedType ? (
           <div className="result-box">
             <p>Brak wyników dla wybranych kryteriów.</p>
           </div>
