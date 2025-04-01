@@ -16,7 +16,7 @@ class Program
     static WebDriverWait? wait;
     static List<Dictionary<string, string>> results = new List<Dictionary<string, string>>();
     static HashSet<string> processedDeptIds = new HashSet<string>();
-
+    static HashSet<string> processedCoordinators = new HashSet<string>();
     static readonly Dictionary<string, string> typeMapping = new Dictionary<string, string>
     {
         { "lek", "lektorat" }, { "wyk", "wykład" }, { "ćw", "ćwiczenia" },
@@ -46,7 +46,7 @@ class Program
 
             Console.WriteLine("Nawigacja do strony...");
             driver.Navigate().GoToUrl("https://plany.ubb.edu.pl/left_menu.php?type=2");
-            Thread.Sleep(2000);
+            Thread.Sleep(3000); // Dłuższe oczekiwanie na pełne załadowanie strony
             Console.WriteLine("Strona załadowana, rozpoczynanie scrapowania...");
 
             var faculties = new List<(string facultyId, string facultyName, string branchParam, string[] deptIds)>
@@ -90,12 +90,30 @@ class Program
 
     static string GetSubjectType(string divText)
     {
+        // Rozszerzony wzorzec, aby lepiej wyodrębnić typ zajęć
         var match = Regex.Match(divText ?? "", @"<img[^>]*id=""arrow_course_\d+""[^>]*>(.*?)<br>", RegexOptions.Singleline);
         if (match.Success)
         {
             string text = match.Groups[1].Value.Trim().ToLower();
-            return typeMapping.FirstOrDefault(kvp => text.Contains(kvp.Key)).Value ?? "nieznany";
+
+            foreach (var kvp in typeMapping)
+            {
+                if (text.Contains(kvp.Key))
+                {
+                    return kvp.Value;
+                }
+            }
         }
+
+        // Alternatywny sposób szukania, jeśli pierwszy nie zadziałał
+        foreach (var kvp in typeMapping)
+        {
+            if (divText.ToLower().Contains(kvp.Key))
+            {
+                return kvp.Value;
+            }
+        }
+
         return "nieznany";
     }
 
