@@ -126,16 +126,25 @@ class Program
                 return studyModeMapping[mode];
             }
         }
+
+        // Dodatkowe sprawdzenie dla przypadków, gdy tryb studiów jest zapisany inaczej
+        if (text.Contains("stacjonar"))
+            return "Stacjonarne";
+        if (text.Contains("niestacjonar") && text.Contains("zaocz"))
+            return "Niestacjonarne Zaoczne";
+        if (text.Contains("niestacjonar") && text.Contains("wieczor"))
+            return "Niestacjonarne Wieczorowe";
+
         return "nieznany";
     }
-
-    static bool EntryExists(string dept, string coord, string subj, string subjType, string studyMode)
+    static bool EntryExists(Dictionary<string, string> entry)
     {
-        return results.Any(entry =>
-            entry["Prowadzący"] == coord &&
-            entry["Przedmiot"] == subj &&
-            entry["Typ"] == subjType &&
-            entry["Tryb studiów"] == studyMode);
+        return results.Any(existingEntry =>
+            existingEntry["Katedra"] == entry["Katedra"] &&
+            existingEntry["Przedmiot"] == entry["Przedmiot"] &&
+            existingEntry["Typ"] == entry["Typ"] &&
+            existingEntry["Tryb studiów"] == entry["Tryb studiów"] &&
+            existingEntry["Prowadzący"] == entry["Prowadzący"]);
     }
 
     static void ProcessDepartment(string deptId, string facultyName, string facultyId, string branchParam)
@@ -145,47 +154,72 @@ class Program
             Console.WriteLine($"Rozpoczynanie przetwarzania katedry {deptId}");
             EnsureFacultyExpanded(facultyId, facultyName);
 
-            IWebElement? plusik = null;
             try
             {
-                plusik = wait!.Until(d =>
+                // Próba znalezienia ikony rozwijania dla katedry
+                IWebElement? plusik = wait!.Until(d =>
                 {
-                    var element = d.FindElement(By.Id($"img_{deptId}"));
-                    ((IJavaScriptExecutor)driver!).ExecuteScript("arguments[0].scrollIntoView(true);", element);
-                    return element.Displayed ? element : null;
+                    try
+                    {
+                        var element = d.FindElement(By.Id($"img_{deptId}"));
+                        ((IJavaScriptExecutor)driver!).ExecuteScript("arguments[0].scrollIntoView(true);", element);
+                        return element.Displayed ? element : null;
+                    }
+                    catch
+                    {
+                        return null;
+                    }
                 });
+
+                string deptName = GetDepartmentName(deptId, facultyName);
+
+                if (plusik != null && plusik.GetAttribute("src")?.Contains("plus.gif") == true)
+                {
+                    ExpandDepartment(plusik, deptId, branchParam, facultyId);
+                }
+
+                // Próba znalezienia div katedry po rozwinięciu
+                var divDept = wait!.Until(d => {
+                    try
+                    {
+                        return d.FindElement(By.Id($"div_{deptId}"));
+                    }
+                    catch
+                    {
+                        return null;
+                    }
+                });
+
+                if (divDept != null)
+                {
+                    // Pobieranie wszystkich linków prowadzących w obrębie katedry
+                    var allLinks = divDept.FindElements(By.TagName("a")).ToList();
+
+                    // Filtrowanie i usunięcie duplikatów
+                    var coordinators = allLinks
+                        .Where(link =>
+                            !string.IsNullOrWhiteSpace(link.Text) &&
+                            (link.GetAttribute("href")?.Contains("type=10") == true ||
+                             link.GetAttribute("href")?.Contains("schedule") == true))
+                        .Select(link => (Name: link.Text.Trim(), Url: link.GetAttribute("href")))
+                        .GroupBy(item => item.Name)
+                        .Select(g => g.First())
+                        .ToList();
+
+                    Console.WriteLine($"Znaleziono {coordinators.Count} prowadzących dla katedry {deptId}");
+                    foreach (var coordinator in coordinators)
+                    {
+                        ProcessCoordinator(coordinator, deptName, facultyId);
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Nie znaleziono rozwiniętej katedry div_{deptId}");
+                }
             }
             catch (WebDriverTimeoutException)
             {
                 Console.WriteLine($"Nie znaleziono elementu img_{deptId}. Katedra może nie istnieć lub strona nie jest w pełni załadowana.");
-                processedDeptIds.Add(deptId);
-                return;
-            }
-
-            string deptName = $"Katedra {deptId}";
-
-            if (plusik.GetAttribute("src")?.Contains("plus.gif") == true)
-            {
-                ExpandDepartment(plusik, deptId, branchParam, facultyId);
-            }
-
-            var divDept = wait!.Until(d => d.FindElement(By.Id($"div_{deptId}")));
-            var coordinatorLinks = divDept.FindElements(By.XPath(".//a[contains(@href, 'type=10')]"));
-            if (!coordinatorLinks.Any())
-            {
-                coordinatorLinks = divDept.FindElements(By.TagName("a"));
-            }
-
-            var coordinators = coordinatorLinks
-                .Where(link => !string.IsNullOrWhiteSpace(link.Text))
-                .Select(link => (Name: link.Text.Trim(), Url: link.GetAttribute("href")))
-                .Distinct()
-                .ToList();
-
-            Console.WriteLine($"Znaleziono {coordinators.Count} prowadzących dla katedry {deptId}");
-            foreach (var coordinator in coordinators)
-            {
-                ProcessCoordinator(coordinator, deptName, facultyId);
             }
 
             processedDeptIds.Add(deptId);
@@ -197,7 +231,26 @@ class Program
         }
     }
 
-    static void EnsureFacultyExpanded(string facultyId, string facultyName)
+        static string GetDepartmentName(string deptId, string facultyName)
+    {
+        try
+        {
+            // Próba znalezienia nazwy katedry na stronie
+            var deptElement = driver!.FindElements(By.XPath($"//span[contains(@onclick, '{deptId}')]")).FirstOrDefault();
+            if (deptElement != null)
+            {
+                return deptElement.Text.Trim();
+            }
+        }
+        catch
+        {
+            // Ignorujemy błędy i używamy fallbacku
+        }
+
+        return $"Katedra {deptId} ({facultyName})";
+    }
+
+ static void EnsureFacultyExpanded(string facultyId, string facultyName)
     {
         int attempts = 0;
         while (attempts < 3)
@@ -205,9 +258,37 @@ class Program
             try
             {
                 Console.WriteLine($"Próba rozwinięcia wydziału {facultyId}, próba {attempts + 1}");
+
+                // Sprawdzenie, czy wydział jest już rozwinięty
+                try
+                {
+                    var facultyElement = driver!.FindElement(By.Id(facultyId));
+                    var imgElement = driver.FindElement(By.Id($"img_{facultyId}"));
+
+                    if (imgElement.GetAttribute("src")?.Contains("minus.gif") == true)
+                    {
+                        Console.WriteLine($"Wydział {facultyId} już rozwinięty");
+                        return;
+                    }
+                }
+                catch { }
+
+                // Jeśli nie jest rozwinięty, próbujemy rozwinąć
                 ((IJavaScriptExecutor)driver!).ExecuteScript($"branch(2,{facultyId},0,'{facultyName}');");
-                wait!.Until(d => d.FindElement(By.Id(facultyId)).Displayed && d.FindElement(By.Id(facultyId)).Enabled);
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
+
+                wait!.Until(d => {
+                    try
+                    {
+                        var element = d.FindElement(By.Id(facultyId));
+                        return element.Displayed && element.Enabled;
+                    }
+                    catch
+                    {
+                        return false;
+                    }
+                });
+
                 Console.WriteLine($"Wydział {facultyId} rozwinięty");
                 return;
             }
@@ -215,7 +296,7 @@ class Program
             {
                 attempts++;
                 Console.WriteLine($"Błąd przy rozwijaniu wydziału {facultyId}: {ex.Message}");
-                Thread.Sleep(2000);
+                Thread.Sleep(500);
             }
         }
         throw new Exception($"Nie udało się rozwinąć wydziału {facultyId} po 3 próbach");
@@ -229,18 +310,68 @@ class Program
             try
             {
                 Console.WriteLine($"Próba rozwinięcia katedry {deptId}, próba {attempts + 1}");
+
+                // Próba kliknięcia w element
                 new Actions(driver!).MoveToElement(plusik).Click().Perform();
-                wait!.Until(d => d.FindElement(By.Id($"div_{deptId}")).Displayed);
-                Thread.Sleep(2000);
-                Console.WriteLine($"Katedra {deptId} rozwinięta");
-                return;
+                Thread.Sleep(500);
+
+                // Weryfikacja, czy katedra została rozwinięta
+                bool isExpanded = wait!.Until(d => {
+                    try
+                    {
+                        var div = d.FindElement(By.Id($"div_{deptId}"));
+                        return div.Displayed;
+                    }
+                    catch
+                    {
+                        return false;
+                    }
+                });
+
+                if (isExpanded)
+                {
+                    Console.WriteLine($"Katedra {deptId} rozwinięta");
+                    return;
+                }
+
+                // Próba alternatywna z JavaScript
+                ((IJavaScriptExecutor)driver!).ExecuteScript(
+                    $"get_left_tree_branch('{deptId}', 'img_{deptId}', 'div_{deptId}', '2', '{branchParam}');"
+                );
+                Thread.Sleep(500);
+
+                isExpanded = wait!.Until(d => {
+                    try
+                    {
+                        var div = d.FindElement(By.Id($"div_{deptId}"));
+                        return div.Displayed;
+                    }
+                    catch
+                    {
+                        return false;
+                    }
+                });
+
+                if (isExpanded)
+                {
+                    Console.WriteLine($"Katedra {deptId} rozwinięta przez JavaScript");
+                    return;
+                }
+
+                attempts++;
             }
             catch (Exception ex)
             {
                 attempts++;
                 Console.WriteLine($"Błąd przy rozwijaniu katedry {deptId}: {ex.Message}");
-                ((IJavaScriptExecutor)driver!).ExecuteScript($"get_left_tree_branch('{deptId}', 'img_{deptId}', 'div_{deptId}', '2', '{branchParam}');");
-                Thread.Sleep(2000);
+                try
+                {
+                    ((IJavaScriptExecutor)driver!).ExecuteScript(
+                        $"get_left_tree_branch('{deptId}', 'img_{deptId}', 'div_{deptId}', '2', '{branchParam}');"
+                    );
+                    Thread.Sleep(500);
+                }
+                catch { }
             }
         }
         throw new Exception($"Nie udało się rozwinąć katedry {deptId} po 3 próbach");
@@ -248,23 +379,85 @@ class Program
 
     static void ProcessCoordinator((string Name, string Url) coordinator, string deptName, string facultyId)
     {
-        driver!.Navigate().GoToUrl(coordinator.Url);
-        Thread.Sleep(2000);
-
-        if (driver.FindElements(By.Id("legend")).Count == 0)
-        {
-            Console.WriteLine($"Brak legendy dla prowadzącego {coordinator.Name}");
-            return;
-        }
-
         try
         {
+            Console.WriteLine($"Przetwarzanie prowadzącego: {coordinator.Name}");
+
+            // Scrapowanie bieżącego tygodnia
+            driver!.Navigate().GoToUrl(coordinator.Url);
+            Thread.Sleep(500);
+            ScrapeSchedule(coordinator.Name, deptName);
+
+            // Pobieranie URL dla następnego tygodnia
+            string currentUrl = driver.Url;
+            var match = Regex.Match(currentUrl, @"w=(\d+)", RegexOptions.IgnoreCase);
+            if (match.Success)
+            {
+                int currentW = int.Parse(match.Groups[1].Value);
+                int nextW = currentW + 1;
+                string nextUrl = Regex.Replace(currentUrl, @"w=\d+", $"w={nextW}", RegexOptions.IgnoreCase);
+
+                // Scrapowanie następnego tygodnia
+                driver.Navigate().GoToUrl(nextUrl);
+                Thread.Sleep(500);
+                ScrapeSchedule(coordinator.Name, deptName);
+            }
+            else
+            {
+                Console.WriteLine($"Nie można znaleźć parametru 'w' w URL: {currentUrl}");
+            }
+
+            // Powrót do menu lewego
+            driver.Navigate().GoToUrl("https://plany.ubb.edu.pl/left_menu.php?type=2");
+            Thread.Sleep(500);
+
+            // Upewnienie się, że wydział jest rozwinięty po powrocie
+            wait!.Until(d => {
+                try
+                {
+                    return d.FindElement(By.Id(facultyId)).Displayed;
+                }
+                catch
+                {
+                    return false;
+                }
+            });
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Błąd w ProcessCoordinator dla {coordinator.Name}: {ex.Message}");
+
+            // Zapewniamy powrót do menu głównego nawet po błędzie
+            try
+            {
+                driver!.Navigate().GoToUrl("https://plany.ubb.edu.pl/left_menu.php?type=2");
+                Thread.Sleep(500);
+            }
+            catch { }
+        }
+    }
+
+        static void ScrapeSchedule(string coordinatorName, string deptName)
+    {
+        try
+        {
+            // Sprawdzenie, czy istnieje legenda
+            var legendExists = driver!.FindElements(By.Id("legend")).Count > 0;
+            if (!legendExists)
+            {
+                Console.WriteLine($"Brak legendy dla prowadzącego {coordinatorName}");
+                return;
+            }
+
             var legend = wait!.Until(d => d.FindElement(By.Id("legend")));
             var dataDiv = legend.FindElement(By.ClassName("data"));
             string legendText = dataDiv.GetAttribute("innerHTML");
 
+            // Pobieranie kursów z legendy
             var subjectPattern = new Regex(@"<strong>(.*?)</strong> - (.*?)(?:, występowanie|\s*<br|\s*<hr)", RegexOptions.Singleline);
             var subjects = subjectPattern.Matches(legendText).Cast<Match>().ToList();
+
+            // Pobieranie div-ów zawierających informacje o kursach
             var courseDivs = driver.FindElements(By.XPath("//div[starts-with(@id, 'course_')]"));
 
             if (subjects.Any())
@@ -273,25 +466,36 @@ class Program
                 {
                     string subjectCode = match.Groups[1].Value;
                     string subjectName = match.Groups[2].Value.Trim();
+
                     foreach (var div in courseDivs)
                     {
-                        string divText = div.GetAttribute("innerHTML");
+                        string divText = div.GetAttribute("innerHTML") ?? "";
                         if (divText.Contains(subjectCode))
                         {
                             string subjectType = GetSubjectType(divText);
                             string studyMode = GetStudyMode(subjectName + " " + divText);
-                            if (studyMode != "nieznany" && !EntryExists(deptName, coordinator.Name, subjectName, subjectType, studyMode))
+
+                            if (studyMode != "nieznany")
                             {
                                 var entry = new Dictionary<string, string>
                                 {
                                     { "Katedra", deptName },
-                                    { "Prowadzący", coordinator.Name },
+                                    { "Prowadzący", coordinatorName },
                                     { "Przedmiot", subjectName },
                                     { "Typ", subjectType },
                                     { "Tryb studiów", studyMode }
                                 };
-                                results.Add(entry);
-                                Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinator.Name}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+
+                                // Dodajemy wpis tylko jeśli takiego jeszcze nie ma
+                                if (!EntryExists(entry))
+                                {
+                                    results.Add(entry);
+                                    Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Pominięto duplikat: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                }
                             }
                         }
                     }
@@ -299,37 +503,118 @@ class Program
             }
             else
             {
+                // Alternatywne podejście, gdy legenda nie zawiera oczekiwanych informacji
                 foreach (var div in courseDivs)
                 {
-                    string divText = div.GetAttribute("innerHTML") ?? "";
-                    string subjectName = divText.Split(new[] { "<br>" }, StringSplitOptions.None)[0].Trim();
-                    string subjectType = GetSubjectType(divText);
-                    string studyMode = GetStudyMode(subjectName + " " + divText);
-                    if (studyMode != "nieznany" && !EntryExists(deptName, coordinator.Name, subjectName, subjectType, studyMode))
+                    try
                     {
-                        var entry = new Dictionary<string, string>
+                        string divText = div.GetAttribute("innerHTML") ?? "";
+
+                        // Próba wyciągnięcia nazwy przedmiotu z div-a
+                        var contentMatch = Regex.Match(divText, @"<b>(.*?)</b>", RegexOptions.Singleline);
+                        string subjectName = contentMatch.Success ?
+                            contentMatch.Groups[1].Value.Trim() :
+                            divText.Split(new[] { "<br>" }, StringSplitOptions.None)[0].Trim();
+
+                        // Usunięcie ewentualnych tagów HTML z nazwy przedmiotu
+                        subjectName = Regex.Replace(subjectName, "<.*?>", string.Empty);
+
+                        if (!string.IsNullOrWhiteSpace(subjectName))
                         {
-                            { "Katedra", deptName },
-                            { "Prowadzący", coordinator.Name },
-                            { "Przedmiot", subjectName },
-                            { "Typ", subjectType },
-                            { "Tryb studiów", studyMode }
-                        };
-                        results.Add(entry);
-                        Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinator.Name}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                            string subjectType = GetSubjectType(divText);
+                            string studyMode = GetStudyMode(subjectName + " " + divText);
+
+                            if (studyMode != "nieznany")
+                            {
+                                var entry = new Dictionary<string, string>
+                                {
+                                    { "Katedra", deptName },
+                                    { "Prowadzący", coordinatorName },
+                                    { "Przedmiot", subjectName },
+                                    { "Typ", subjectType },
+                                    { "Tryb studiów", studyMode }
+                                };
+
+                                // Dodajemy wpis tylko jeśli takiego jeszcze nie ma
+                                if (!EntryExists(entry))
+                                {
+                                    results.Add(entry);
+                                    Console.WriteLine($"Zescrapowano plan: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"Pominięto duplikat: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                }
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Błąd przy przetwarzaniu pojedynczego kursu: {ex.Message}");
+                    }
+                }
+            }
+
+            // Dodatkowe sprawdzenie dla przypadków, gdy brak div course_
+            if (!courseDivs.Any())
+            {
+                // Sprawdzanie całej tabeli z planem
+                var scheduleTable = driver.FindElements(By.XPath("//table[@id='tab']")).FirstOrDefault();
+                if (scheduleTable != null)
+                {
+                    var cells = scheduleTable.FindElements(By.XPath(".//td[contains(@id, 'td')]"));
+                    foreach (var cell in cells)
+                    {
+                        try
+                        {
+                            string cellContent = cell.GetAttribute("innerHTML") ?? "";
+                            if (!string.IsNullOrWhiteSpace(cellContent) && cellContent.Length > 10)
+                            {
+                                var courseMatch = Regex.Match(cellContent, @"<b>(.*?)</b>", RegexOptions.Singleline);
+                                if (courseMatch.Success)
+                                {
+                                    string subjectName = courseMatch.Groups[1].Value.Trim();
+                                    string subjectType = GetSubjectType(cellContent);
+                                    string studyMode = GetStudyMode(cellContent);
+
+                                    if (studyMode != "nieznany")
+                                    {
+                                        var entry = new Dictionary<string, string>
+                                        {
+                                            { "Katedra", deptName },
+                                            { "Prowadzący", coordinatorName },
+                                            { "Przedmiot", subjectName },
+                                            { "Typ", subjectType },
+                                            { "Tryb studiów", studyMode }
+                                        };
+
+                                        // Dodajemy wpis tylko jeśli takiego jeszcze nie ma
+                                        if (!EntryExists(entry))
+                                        {
+                                            results.Add(entry);
+                                            Console.WriteLine($"Zescrapowano z komórki: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Pominięto duplikat: Katedra: {deptName}, Prowadzący: {coordinatorName}, Przedmiot: {subjectName}, Typ: {subjectType}, Tryb: {studyMode}");
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Błąd przy przetwarzaniu komórki: {ex.Message}");
+                        }
                     }
                 }
             }
         }
         catch (Exception e)
         {
-            Console.WriteLine($"Błąd w ProcessCoordinator dla {coordinator.Name}: {e.Message}");
+            Console.WriteLine($"Błąd w ScrapeSchedule dla {coordinatorName}: {e.Message}");
         }
-
-        driver.Navigate().GoToUrl("https://plany.ubb.edu.pl/left_menu.php?type=2");
-        wait!.Until(d => d.FindElement(By.Id(facultyId)));
     }
-
     static void ProcessFaculty(string facultyId, string facultyName, string branchParam, string[] deptIds)
     {
         try
@@ -353,8 +638,25 @@ class Program
 
     static Dictionary<string, Dictionary<string, Dictionary<string, object>>> TransformToJson(List<Dictionary<string, string>> results)
     {
+        // Przygotowanie struktury dla danych JSON
         var jsonData = new Dictionary<string, Dictionary<string, Dictionary<string, Dictionary<string, List<string>>>>>();
-        foreach (var entry in results)
+
+        // Grupowanie rekordów, aby zapobiec duplikatom
+        var uniqueResults = results
+            .GroupBy(r => new {
+                Dept = r["Katedra"],
+                Subject = r["Przedmiot"],
+                Type = r["Typ"],
+                Mode = r["Tryb studiów"],
+                Coordinator = r["Prowadzący"]
+            })
+            .Select(g => g.First())
+            .ToList();
+
+        Console.WriteLine($"Po usunięciu duplikatów: {uniqueResults.Count} z {results.Count} rekordów");
+
+        // Tworzenie hierarchicznej struktury JSON
+        foreach (var entry in uniqueResults)
         {
             string dept = entry["Katedra"];
             string subject = entry["Przedmiot"];
@@ -375,6 +677,7 @@ class Program
                 jsonData[dept][subject][studyMode][subjectType].Add(coordinator);
         }
 
+        // Konwersja do końcowej struktury JSON
         var finalJson = new Dictionary<string, Dictionary<string, Dictionary<string, object>>>();
         foreach (var dept in jsonData.Keys)
         {
@@ -385,23 +688,7 @@ class Program
                 foreach (var studyMode in jsonData[dept][subject].Keys)
                 {
                     var types = jsonData[dept][subject][studyMode];
-                    if (types.ContainsKey("wykład"))
-                    {
-                        finalJson[dept][subject][studyMode] = new Dictionary<string, object>
-                        {
-                            { "Typ", "wykład" },
-                            { "Prowadzący", types["wykład"] }
-                        };
-                    }
-                    else
-                    {
-                        var firstType = types.Keys.First();
-                        finalJson[dept][subject][studyMode] = new Dictionary<string, object>
-                        {
-                            { "Typ", firstType },
-                            { "Prowadzący", types[firstType] }
-                        };
-                    }
+                    finalJson[dept][subject][studyMode] = types;
                 }
             }
         }
